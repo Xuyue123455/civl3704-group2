@@ -1,0 +1,18 @@
+# Minimum Python set for the HOSTED web runtime (api.serve: the JSON API + the built frontend), derived from the
+# deployment audit: the engine-mode request path (health, catalogue, WALK, COMPARE, TRACK, REPLAY) was run with
+# rasterio / scikit-learn / matplotlib / pillow blocked at import and produced the Desktop Gold numbers unchanged
+# (docs/WEB_DEPLOYMENT_READINESS.md §2).  Pins follow requirements.txt where it pins.
+numpy
+pandas>=2.0.0
+networkx>=3.0
+osmnx==2.1.1
+geopandas>=0.14.0
+shapely>=2.0.0
+pyproj
+scipy
+requests>=2.31.0
+protobuf>=4.24.0
+gtfs-realtime-bindings>=1.0.0
+python-dotenv>=1.0.0
+waitress>=3.0
+# build-time only (never imported by the request path): rasterio, scikit-learn, matplotlib, pillow, pytest, playwright

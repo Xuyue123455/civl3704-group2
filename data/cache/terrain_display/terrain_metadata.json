@@ -1,0 +1,288 @@
+{
+ "schema": "web-terrain-display-1",
+ "generated_at_utc": "2026-10-24T06:47:59Z",
+ "purpose": "terrain display surface for the web map only - never read by an analytical module; it does not change routing, effort, time, stairs or catchability",
+ "source": {
+  "dem_tiles": [
+   "Sydney202005-LID1-AHD_3306248_56_0002_0002_1m.tif",
+   "Sydney202005-LID1-AHD_3306250_56_0002_0002_1m.tif",
+   "Sydney202005-LID1-AHD_3326248_56_0002_0002_1m.tif",
+   "Sydney202005-LID1-AHD_3326250_56_0002_0002_1m.tif"
+  ],
+  "dem_crs": "EPSG:7856",
+  "description": "1 m LiDAR-derived DEM, AHD elevation (Sydney 2020)",
+  "resolution_m": 1.0,
+  "metric_extent": [
+   330000.0,
+   6248000.0,
+   334000.0,
+   6252000.0
+  ]
+ },
+ "audit": {
+  "dem": {
+   "min": -25.41,
+   "p1": -0.26,
+   "p2": 0.04,
+   "p5": 0.93,
+   "median": 16.75,
+   "p95": 36.11,
+   "p98": 40.16,
+   "p99": 41.97,
+   "max": 45.79,
+   "cells": 16000000,
+   "share_below_0m": 0.01886,
+   "share_within_0p5m_of_0": 0.03384,
+   "share_exactly_0m": 0.0
+  },
+  "web_bbox_intersection": {
+   "min": -25.41,
+   "p1": -0.26,
+   "p2": 0.04,
+   "p5": 0.93,
+   "median": 16.75,
+   "p95": 36.11,
+   "p98": 40.16,
+   "p99": 41.97,
+   "max": 45.79,
+   "cells": 16000000,
+   "share_below_0m": 0.01886,
+   "share_within_0p5m_of_0": 0.03384,
+   "share_exactly_0m": 0.0
+  },
+  "nodata": {
+   "declared_value": -9999.0,
+   "cells": 0,
+   "share": 0.0,
+   "rule": "NoData is transparent in every display product; it is never drawn as 0 m"
+  },
+  "coverage": {
+   "dem_extent_metric": [
+    330000.0,
+    6248000.0,
+    334000.0,
+    6252000.0
+   ],
+   "dem_extent_wgs84": [
+    [
+     151.162293,
+     -33.858625
+    ],
+    [
+     151.205515,
+     -33.859262
+    ],
+    [
+     151.20476,
+     -33.89532
+    ],
+    [
+     151.16152,
+     -33.894682
+    ]
+   ],
+   "web_bbox_wgs84": [
+    151.16,
+    -33.9,
+    151.214,
+    -33.856
+   ],
+   "web_bbox_covered_fraction": {
+    "x": 0.815,
+    "y": 0.805
+   },
+   "uncovered_web_regions": [
+    {
+     "side": "east",
+     "width_m": 779,
+     "lon_from": 151.20551
+    },
+    {
+     "side": "west",
+     "width_m": 130,
+     "lon_to": 151.16229
+    },
+    {
+     "side": "north",
+     "height_m": 375,
+     "lat_from": -33.85862
+    },
+    {
+     "side": "south",
+     "height_m": 592,
+     "lat_to": -33.89468
+    }
+   ]
+  },
+  "study_polygon": {
+   "file": "glebe_suburb.geojson",
+   "min": -0.5,
+   "p1": 1.72,
+   "p2": 1.9,
+   "p5": 2.17,
+   "median": 16.71,
+   "p95": 32.67,
+   "p98": 34.15,
+   "p99": 34.55,
+   "max": 37.02,
+   "cells": 1677127,
+   "share_below_0m": 0.00133,
+   "share_within_0p5m_of_0": 0.00358,
+   "share_exactly_0m": 0.0
+  },
+  "zero_metre_diagnosis": {
+   "share_of_dem_near_0m": 0.03799,
+   "share_of_dem_flat_near_0m": 0.03577,
+   "largest_flat_near_0m_regions": [
+    {
+     "centre_wgs84": [
+      151.19951,
+      -33.86659
+     ],
+     "area_ha": 15.5
+    },
+    {
+     "centre_wgs84": [
+      151.19779,
+      -33.86073
+     ],
+     "area_ha": 6.7
+    },
+    {
+     "centre_wgs84": [
+      151.18637,
+      -33.86914
+     ],
+     "area_ha": 5.9
+    },
+    {
+     "centre_wgs84": [
+      151.18705,
+      -33.87144
+     ],
+     "area_ha": 5.7
+    },
+    {
+     "centre_wgs84": [
+      151.19,
+      -33.87253
+     ],
+     "area_ha": 4.8
+    }
+   ],
+   "share_below_minus_5m": 0.000464,
+   "conclusion": "no NoData, no padding, no clipping artefact: the near-0 m cells are flat water surfaces (bays) carrying true LiDAR water-return values around sea level, plus a few sub-sea-level noise pits; the old 0 m contour followed that noisy water surface. Display rule: no contour below the first major interval, water shows as the lowest tint."
+  }
+ },
+ "elevation_range_m": {
+  "low": 0.0,
+  "high": 40.0,
+  "rule": "P2..P98 of the DEM inside the web bounding box, rounded to 5 m (low down, high to the nearest), low never below 0 m AHD; values outside are clipped (a handful of sub-sea-level noise cells and the highest crests)"
+ },
+ "display": {
+  "cell_m": 2.0,
+  "tint_smoothing": {
+   "method": "NaN-aware Gaussian",
+   "sigma_m": 6.0
+  },
+  "tint_stops": [
+   {
+    "t": 0.0,
+    "hex": "#dbe7ee"
+   },
+   {
+    "t": 0.3,
+    "hex": "#e2e9d6"
+   },
+   {
+    "t": 0.65,
+    "hex": "#eee6cf"
+   },
+   {
+    "t": 1.0,
+    "hex": "#f2d8ba"
+   }
+  ],
+  "hillshade": {
+   "method": "multidirectional Horn hillshade (azimuths 225/270/315/360, weights sin^2(aspect-azimuth)), altitude 45 deg, vertical exaggeration 2.6, grid Gaussian sigma 10.0 m, shade blur 1 px, shadows max alpha 0.34 / highlights max alpha 0.14",
+   "cell_m": 4.0,
+   "grid_smoothing_sigma_m": 10.0,
+   "vertical_exaggeration": 2.6,
+   "water_noise_floor_m": -1.5,
+   "max_shaded_gradient": 0.45
+  },
+  "contours": {
+   "interval_m": 10.0,
+   "levels_m": [
+    10.0,
+    20.0,
+    30.0,
+    40.0
+   ],
+   "grid_smoothing_sigma_m": 8.0,
+   "simplify_tolerance_m": 2.0,
+   "min_length_m": 80.0,
+   "labels": "every 1400 m on contours >= 900 m long, straight stretches only",
+   "count_lines": 53,
+   "count_labels": 56
+  },
+  "nodata": "transparent (alpha 0) in both images; outside the DEM extent nothing is drawn"
+ },
+ "images": {
+  "elevation_tint": {
+   "file": "elevation_tint.png",
+   "width": 2000,
+   "height": 2000,
+   "size_bytes": 649581
+  },
+  "hillshade": {
+   "file": "hillshade.png",
+   "width": 1000,
+   "height": 1000,
+   "size_bytes": 304093
+  }
+ },
+ "coordinates_wgs84": [
+  [
+   151.1622933,
+   -33.8586247
+  ],
+  [
+   151.2055147,
+   -33.8592617
+  ],
+  [
+   151.2047595,
+   -33.8953204
+  ],
+  [
+   151.16152,
+   -33.8946825
+  ]
+ ],
+ "coverage_polygon_wgs84": [
+  [
+   151.1622933,
+   -33.8586247
+  ],
+  [
+   151.2055147,
+   -33.8592617
+  ],
+  [
+   151.2047595,
+   -33.8953204
+  ],
+  [
+   151.16152,
+   -33.8946825
+  ],
+  [
+   151.1622933,
+   -33.8586247
+  ]
+ ],
+ "contours_file": "major_contours.geojson",
+ "contours_size_bytes": 88015,
+ "build_seconds": 9.82
+}

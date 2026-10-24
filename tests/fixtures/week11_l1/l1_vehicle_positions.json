@@ -1,0 +1,13 @@
+{
+ "captured_at": 1792189021,
+ "synthetic": false,
+ "source_url": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/lightrail/innerwest",
+ "bytes": 1286,
+ "sha256": "6995e02f476ae90f36128cc830f8fe616b9780f9ab6e02136da0a25cc7e52844",
+ "captured_sydney": "2026-10-17T09:17:01+11:00",
+ "static_bundle": {
+  "download_date": "2026-10-17",
+  "zip_sha256_prefix": "b5d36487404b9f3f"
+ },
+ "note": "REAL TfNSW Inner West Light Rail v2 snapshot captured on the Windows desktop on 2026-10-17 09:17 AEDT with scripts/week11_capture_light_rail.py, AFTER the static GTFS refresh of 2026-10-17 (same timetable generation); bytes unmodified; a recorded fixture, NOT current or live data; no API key or secret is stored here or in the .pb"
+}

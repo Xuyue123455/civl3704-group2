@@ -1,0 +1,101 @@
+stop_id,mode,route_short_name,route_id,direction_id,trip_headsign,route_direction,n_trips,first_arrival,last_arrival,stop_name
+203714,bus,433,74-433-sj2-1,1,Pitt St And Barlow St,Balmain Gladstone Park to Central Pitt St,257,05:02:00,28:08:00,Wigram Rd At Bell Lane
+203715,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:30:00,25:02:00,Glebe Point Rd Opp Forsyth St
+203715,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:53:00,24:12:00,Glebe Point Rd Opp Forsyth St
+203716,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:31:00,25:03:00,Glebe Point Rd Opp Leichhardt St
+203716,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:53:00,24:12:00,Glebe Point Rd Opp Leichhardt St
+203717,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:13:00,24:25:00,Federal Rd Opp Bicentennial Park
+203717,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,141,05:10:00,23:17:00,Federal Rd Opp Bicentennial Park
+203718,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:14:00,24:26:00,Glebe Point Rd At Leichhardt St
+203718,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,141,05:11:00,23:18:00,Glebe Point Rd At Leichhardt St
+203719,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:14:00,24:26:00,Glebe Point Rd After Cook St
+203719,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,141,05:12:00,23:18:00,Glebe Point Rd After Cook St
+203721,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,1,15:26:00,15:26:00,"St Scholastica's College, Maxwell Rd"
+203721,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,1,15:29:00,15:29:00,"St Scholastica's College, Maxwell Rd"
+203722,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:15:00,24:27:00,Glebe Point Rd After Forsyth St
+203722,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,142,05:12:00,23:19:00,Glebe Point Rd After Forsyth St
+203722,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,1,15:32:00,15:32:00,Glebe Point Rd After Forsyth St
+203723,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:15:00,24:27:00,Glebe Point Rd Opp Glebe Library
+203723,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,143,05:13:00,23:19:00,Glebe Point Rd Opp Glebe Library
+203723,bus,433,74-433-sj2-1,1,Pitt St And Barlow St,Balmain Gladstone Park to Central Pitt St,257,05:03:00,28:09:00,Glebe Point Rd Opp Glebe Library
+203724,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:16:00,24:28:00,Glebe Point Rd At Bridge Rd
+203724,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,143,05:14:00,23:20:00,Glebe Point Rd At Bridge Rd
+203724,bus,433,74-433-sj2-1,1,Pitt St And Barlow St,Balmain Gladstone Park to Central Pitt St,257,05:04:00,28:10:00,Glebe Point Rd At Bridge Rd
+203725,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:16:00,24:28:00,Glebe Point Rd At St Johns Rd
+203725,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,143,05:14:00,23:21:00,Glebe Point Rd At St Johns Rd
+203725,bus,433,74-433-sj2-1,1,Pitt St And Barlow St,Balmain Gladstone Park to Central Pitt St,257,05:04:00,28:10:00,Glebe Point Rd At St Johns Rd
+203726,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:17:00,24:29:00,Glebe Point Rd At Mitchell St
+203726,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,143,05:15:00,23:21:00,Glebe Point Rd At Mitchell St
+203726,bus,433,74-433-sj2-1,1,Pitt St And Barlow St,Balmain Gladstone Park to Central Pitt St,257,05:05:00,28:11:00,Glebe Point Rd At Mitchell St
+203727,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:17:00,24:29:00,Glebe Point Rd Opp Glebe Public School
+203727,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,143,05:15:00,23:22:00,Glebe Point Rd Opp Glebe Public School
+203727,bus,433,74-433-sj2-1,1,Pitt St And Barlow St,Balmain Gladstone Park to Central Pitt St,257,05:05:00,28:11:00,Glebe Point Rd Opp Glebe Public School
+203728,bus,370,30-370-sj2-1,0,Coogee Beach,Glebe Point to Coogee,465,05:18:00,24:30:00,Glebe Point Rd At Broadway
+203728,bus,431,74-431-sj2-1,1,Martin Place,Glebe Point to City Martin Place,143,05:16:00,23:23:00,Glebe Point Rd At Broadway
+203728,bus,433,74-433-sj2-1,1,Pitt St And Barlow St,Balmain Gladstone Park to Central Pitt St,257,05:06:00,28:12:00,Glebe Point Rd At Broadway
+203729,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:25:00,24:57:00,Glebe Point Rd After Parramatta Rd
+203729,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:49:00,24:07:00,Glebe Point Rd After Parramatta Rd
+203729,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,277,04:36:00,27:36:00,Glebe Point Rd After Parramatta Rd
+203729,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,07:55:00,07:55:00,Glebe Point Rd After Parramatta Rd
+203730,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:26:00,24:58:00,"Glebe Public School, Glebe Point Rd"
+203730,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:49:00,24:08:00,"Glebe Public School, Glebe Point Rd"
+203730,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,277,04:36:00,27:37:00,"Glebe Public School, Glebe Point Rd"
+203730,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,07:56:00,07:56:00,"Glebe Public School, Glebe Point Rd"
+203731,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:27:00,24:59:00,Glebe Point Rd At Mitchell St
+203731,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:50:00,24:08:00,Glebe Point Rd At Mitchell St
+203731,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,277,04:37:00,27:37:00,Glebe Point Rd At Mitchell St
+203731,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,07:57:00,07:57:00,Glebe Point Rd At Mitchell St
+203732,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:27:00,24:59:00,Glebe Point Rd At St Johns Rd
+203732,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:51:00,24:09:00,Glebe Point Rd At St Johns Rd
+203732,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,277,04:38:00,27:38:00,Glebe Point Rd At St Johns Rd
+203732,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,07:58:00,07:58:00,Glebe Point Rd At St Johns Rd
+203733,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:28:00,25:00:00,Glebe Point Rd Before Bridge Rd
+203733,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:51:00,24:10:00,Glebe Point Rd Before Bridge Rd
+203733,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,277,04:38:00,27:39:00,Glebe Point Rd Before Bridge Rd
+203733,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,07:58:00,07:58:00,Glebe Point Rd Before Bridge Rd
+203733,bus,469,74-469-sj2-1,1,MarketPlace Leichhardt Via Glebe,MarketPlace Leichhardt to Glebe (Loop Service),98,06:09:00,22:13:00,Glebe Point Rd Before Bridge Rd
+203734,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:29:00,25:01:00,Glebe Point Rd At Hereford St
+203734,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:52:00,24:11:00,Glebe Point Rd At Hereford St
+203734,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,279,04:39:00,27:40:00,Glebe Point Rd At Hereford St
+203734,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,07:59:00,07:59:00,Glebe Point Rd At Hereford St
+203734,bus,469,74-469-sj2-1,1,MarketPlace Leichhardt Via Glebe,MarketPlace Leichhardt to Glebe (Loop Service),98,06:10:00,22:14:00,Glebe Point Rd At Hereford St
+203735,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:29:00,25:01:00,"Glebe Library, Glebe Point Rd"
+203735,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:52:00,24:11:00,"Glebe Library, Glebe Point Rd"
+203735,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,279,04:39:00,27:40:00,"Glebe Library, Glebe Point Rd"
+203735,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,08:00:00,08:00:00,"Glebe Library, Glebe Point Rd"
+203735,bus,469,74-469-sj2-1,1,MarketPlace Leichhardt Via Glebe,MarketPlace Leichhardt to Glebe (Loop Service),98,06:10:00,22:14:00,"Glebe Library, Glebe Point Rd"
+203736,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,280,04:40:00,27:41:00,Wigram Rd Opp Bell Lane
+203736,bus,433,74-433-sj2-1,0,Darling St And Thornton St,Central Pitt St to Balmain Gladstone Park,1,08:01:00,08:01:00,Wigram Rd Opp Bell Lane
+203736,bus,469,74-469-sj2-1,1,MarketPlace Leichhardt Via Glebe,MarketPlace Leichhardt to Glebe (Loop Service),98,06:11:00,22:15:00,Wigram Rd Opp Bell Lane
+203746,bus,433,74-433-sj2-1,0,Balmain - Gladstone Park,Central Pitt St to Balmain Gladstone Park,2,15:10:00,15:30:00,"Sydney Secondary College Blackwattle Bay Campus, Taylor St"
+203760,bus,469,74-469-sj2-1,1,MarketPlace Leichhardt Via Glebe,MarketPlace Leichhardt to Glebe (Loop Service),98,06:08:00,22:12:00,St Johns Rd Opp Glebe Town Hall
+203760,bus,470,74-470-sj2-1,1,Martin Place,Lilyfield to City Martin Place,237,05:07:00,24:05:00,St Johns Rd Opp Glebe Town Hall
+203761,bus,470,74-470-sj2-1,1,Martin Place,Lilyfield to City Martin Place,237,05:07:00,24:05:00,Catherine St At Mitchell St
+203762,bus,470,74-470-sj2-1,1,Martin Place,Lilyfield to City Martin Place,237,05:08:00,24:06:00,Catherine St At Derwent St
+203763,bus,470,74-470-sj2-1,0,Lilyfield,City Martin Place to Lilyfield,228,05:46:00,24:56:00,Derwent St At Arundel St
+203764,bus,470,74-470-sj2-1,0,Lilyfield,City Martin Place to Lilyfield,228,05:47:00,24:57:00,Catherine St Opp Mitchell St
+203765,bus,470,74-470-sj2-1,0,Lilyfield,City Martin Place to Lilyfield,228,05:48:00,24:58:00,"Glebe Town Hall, Mt Vernon St"
+203766,bus,470,74-470-sj2-1,0,Lilyfield,City Martin Place to Lilyfield,228,05:48:00,24:59:00,St Johns Rd At Ross St
+203769,bus,412,74-412-sj2-1,1,Martin Place,Campsie to City Martin Place via Earlwood & Dulwich Hill,134,05:42:00,23:37:00,Parramatta Rd Opp University Of Sydney Footbridge
+203769,bus,413,74-413-sj2-1,1,Pitt St And Barlow St,Campsie to Central Pitt St,220,05:59:00,24:09:00,Parramatta Rd Opp University Of Sydney Footbridge
+203769,bus,422,74-422-sj2-1,1,Pitt St And Barlow St,Kogarah to Central Pitt St,143,05:40:00,24:05:00,Parramatta Rd Opp University Of Sydney Footbridge
+203769,bus,438N,74-438-N-sj2-1,1,Martin Place,Abbotsford to City Martin Place,26,04:50:00,28:05:00,Parramatta Rd Opp University Of Sydney Footbridge
+203769,bus,440,74-440-sj2-1,0,Grafton Street Bondi Jct,Rozelle to Bondi Junction,263,04:24:00,24:55:00,Parramatta Rd Opp University Of Sydney Footbridge
+203769,bus,461N,74-461-N-sj2-1,1,Hyde Park,Burwood to City Hyde Park,32,05:08:00,25:54:00,Parramatta Rd Opp University Of Sydney Footbridge
+203769,bus,480,74-480-sj2-1,1,Pitt St And Barlow St,Strathfield to Central Pitt St via Homebush Rd,29,05:47:00,17:58:00,Parramatta Rd Opp University Of Sydney Footbridge
+203769,bus,483,74-483-sj2-1,1,Pitt St And Barlow St,Strathfield to Central Pitt St via South Strathfield,94,06:17:00,24:27:00,Parramatta Rd Opp University Of Sydney Footbridge
+203770,bus,412,74-412-sj2-1,1,Martin Place,Campsie to City Martin Place via Earlwood & Dulwich Hill,134,05:43:00,23:39:00,Parramatta Rd Opp Victoria Park
+203770,bus,413,74-413-sj2-1,1,Pitt St And Barlow St,Campsie to Central Pitt St,220,06:00:00,24:10:00,Parramatta Rd Opp Victoria Park
+203770,bus,422,74-422-sj2-1,1,Pitt St And Barlow St,Kogarah to Central Pitt St,143,05:40:00,24:07:00,Parramatta Rd Opp Victoria Park
+203770,bus,438N,74-438-N-sj2-1,1,Martin Place,Abbotsford to City Martin Place,26,04:51:00,28:06:00,Parramatta Rd Opp Victoria Park
+203770,bus,440,74-440-sj2-1,0,Grafton Street Bondi Jct,Rozelle to Bondi Junction,263,04:25:00,24:57:00,Parramatta Rd Opp Victoria Park
+203770,bus,461N,74-461-N-sj2-1,1,Hyde Park,Burwood to City Hyde Park,32,05:08:00,25:54:00,Parramatta Rd Opp Victoria Park
+203770,bus,470,74-470-sj2-1,1,Martin Place,Lilyfield to City Martin Place,237,05:09:00,24:07:00,Parramatta Rd Opp Victoria Park
+203770,bus,480,74-480-sj2-1,1,Pitt St And Barlow St,Strathfield to Central Pitt St via Homebush Rd,29,05:48:00,18:00:00,Parramatta Rd Opp Victoria Park
+203770,bus,483,74-483-sj2-1,1,Pitt St And Barlow St,Strathfield to Central Pitt St via South Strathfield,94,06:18:00,24:28:00,Parramatta Rd Opp Victoria Park
+203779,light_rail,L1,78-L1-sj2-1,1,Central Station,Dulwich Hill to Central,835,05:16:45,25:16:45,Jubilee Park Light Rail
+203780,light_rail,L1,78-L1-sj2-1,0,Dulwich Hill,Central to Dulwich Hill,834,05:19:18,25:19:18,Jubilee Park Light Rail
+203781,light_rail,L1,78-L1-sj2-1,1,Central Station,Dulwich Hill to Central,835,05:18:30,25:18:30,Glebe Light Rail
+203782,light_rail,L1,78-L1-sj2-1,0,Dulwich Hill,Central to Dulwich Hill,834,05:17:39,25:17:39,Glebe Light Rail
+203784,bus,370,30-370-sj2-1,1,Glebe Point,Coogee to Glebe Point,325,05:32:00,25:04:00,Federal Rd Opp Bicentennial Park
+203784,bus,431,74-431-sj2-1,0,Glebe Point,City Martin Place to Glebe Point,143,05:54:00,24:13:00,Federal Rd Opp Bicentennial Park

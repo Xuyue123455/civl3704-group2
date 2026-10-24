@@ -1,0 +1,22 @@
+# Render Blueprint - one web service, native Python runtime, same origin for the frontend (/) and the API (/api).
+# No secret value is written here: TFNSW_API_KEY is declared with sync: false, so Render asks for it in the dashboard.
+# No database, no persistent disk: the runtime bundle is read-only at run time.
+services:
+  - type: web
+    name: accessible-transit-glebe
+    runtime: python
+    region: singapore          # closest Render region to Sydney (no Australian region exists); fixed at creation
+    plan: free                 # first staging trial only: 0.1 CPU / 512 MB RAM, spins down after 15 min idle (see RENDER_DEPLOYMENT.md)
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m api.serve --port $PORT --warm-up
+    healthCheckPath: /api/ready
+    autoDeployTrigger: "off"   # conservative staging: deploy by hand from the dashboard, never on every push
+    envVars:
+      - key: TFNSW_API_KEY
+        sync: false            # LIVE only; the value is entered once in the Render dashboard, never stored in this repo
+      - key: ACCESSIBLE_TRANSIT_API_MODE
+        value: engine
+      - key: WEB_THREADS
+        value: "4"
+      - key: MPLBACKEND
+        value: Agg

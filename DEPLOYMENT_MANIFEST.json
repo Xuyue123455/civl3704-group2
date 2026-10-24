@@ -1,0 +1,904 @@
+{
+ "schema": "render-stage-manifest-1",
+ "platform": "render",
+ "source_commit": "89eab8462d29b12696b1d5985856f9ebc87a129f",
+ "adapted_from": {
+  "bundle": "railway staging bundle (verified: isolated validation all true, manifest hashes re-checked)",
+  "source_manifest_schema": "railway-stage-manifest-1",
+  "source_build_timestamp_utc": "2026-10-24T10:19:55Z"
+ },
+ "build_timestamp_utc": "2026-10-24T10:55:48Z",
+ "built_on": {
+  "platform": "linux",
+  "python": "3.10.12"
+ },
+ "service": {
+  "name": "accessible-transit-glebe",
+  "runtime": "python",
+  "python_version_file": "3.12",
+  "build_command": "pip install -r requirements.txt",
+  "start_command": "python -m api.serve --port $PORT --warm-up",
+  "health_check_path": "/api/ready",
+  "region": "singapore",
+  "plan": "free (trial) - see RENDER_DEPLOYMENT.md"
+ },
+ "environment_variables": {
+  "platform": [
+   "PORT"
+  ],
+  "secret_sync_false": [
+   "TFNSW_API_KEY (LIVE only; value never recorded)"
+  ],
+  "values_in_render_yaml": [
+   "ACCESSIBLE_TRANSIT_API_MODE=engine",
+   "WEB_THREADS=4",
+   "MPLBACKEND=Agg"
+  ]
+ },
+ "file_count": 152,
+ "total_bytes": 49120218,
+ "total_mb": 49.1,
+ "largest_file_bytes": 31657070,
+ "largest_file": "data/gtfs/trips.txt",
+ "by_kind": {
+  "code": {
+   "files": 56,
+   "bytes": 1410995
+  },
+  "runtime asset": {
+   "files": 86,
+   "bytes": 46494275
+  },
+  "frontend": {
+   "files": 4,
+   "bytes": 1204618
+  },
+  "config": {
+   "files": 6,
+   "bytes": 10330
+  }
+ },
+ "largest": [
+  {
+   "path": "data/gtfs/trips.txt",
+   "mb": 31.66
+  },
+  {
+   "path": "data/cache/glebe_walk.graphml",
+   "mb": 3.49
+  },
+  {
+   "path": "results/service_intent/candidate_stop_trips.csv",
+   "mb": 3.32
+  },
+  {
+   "path": "data/cache/terrain_cost/edge_terrain_cost.csv",
+   "mb": 2.46
+  },
+  {
+   "path": "data/cache/basemap/inner_west_basemap.json",
+   "mb": 1.97
+  },
+  {
+   "path": "data/gtfs/routes.txt",
+   "mb": 1.25
+  },
+  {
+   "path": "web/dist/assets/index-BkYYi8Yx.js",
+   "mb": 1.03
+  },
+  {
+   "path": "data/cache/terrain_display/elevation_tint.png",
+   "mb": 0.65
+  },
+  {
+   "path": "data/cache/terrain_display/hillshade.png",
+   "mb": 0.3
+  },
+  {
+   "path": "data/cache/mapped_steps.json",
+   "mb": 0.25
+  },
+  {
+   "path": "tests/fixtures/week11_l1/bus_433_replay_golden.json",
+   "mb": 0.18
+  },
+  {
+   "path": "api/fixtures/compare_433_1_o2_203723_standard.json",
+   "mb": 0.16
+  },
+  {
+   "path": "data/cache/stair_model/stair_costs.csv",
+   "mb": 0.1
+  },
+  {
+   "path": "web/dist/fonts/DejaVu Sans Regular/0-255.pbf",
+   "mb": 0.09
+  },
+  {
+   "path": "scripts/demo_week7_trip_tracking.py",
+   "mb": 0.09
+  }
+ ],
+ "frontend_build_sha256": "0869035feb2ebe17120f5f14009bc3dad03b7c80715db2235b364a2372e00295",
+ "requirements_sha256": "2e2a7d9a0b8931f54cd353bcf5d9c95540fb88681b302c3e167fe34848f25a8f",
+ "render_yaml_sha256": "5eaac32381b1f27df0efd82238b4deae448a2a21adb2e939dc96f67c33166ab4",
+ "excluded_by_design": [
+  "data/dem",
+  "data/gtfs/stop_times.txt",
+  "data/gtfs/stops.txt",
+  "data/gtfs/calendar*.txt",
+  "data/gtfs/timetables_complete_gtfs.zip",
+  "web/node_modules",
+  "web/src",
+  "results/* except service_intent",
+  "tests/* except fixtures/week11_l1",
+  "docs",
+  ".env",
+  "config.json",
+  "desktop-only scripts (unified_ui/shell.py, panels, map_view.py, demo_week10_unified.py)",
+  "Procfile / railway.json (Railway only)"
+ ],
+ "files": {
+  ".gitignore": {
+   "kind": "config",
+   "bytes": 204,
+   "sha256": "e58e7538b2693774054337bbf949ed19156bda1bcac823968654b49428796d1c"
+  },
+  ".python-version": {
+   "kind": "config",
+   "bytes": 5,
+   "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+  },
+  "README.md": {
+   "kind": "config",
+   "bytes": 935,
+   "sha256": "b9db236268df4c3bf9d48550104816e9cf7144468734c47592908004a4efc7b6"
+  },
+  "RENDER_DEPLOYMENT.md": {
+   "kind": "config",
+   "bytes": 7224,
+   "sha256": "a4d6e7c6c11199ec4061773013b6be5b05bb8b0984387f6a653c77ce2e4ed96a"
+  },
+  "api/__init__.py": {
+   "kind": "code",
+   "bytes": 496,
+   "sha256": "93efacbd5a05b284f533f231b45b4e89e84b497f2be726815fa0c22eb936016d"
+  },
+  "api/adapters/__init__.py": {
+   "kind": "code",
+   "bytes": 108,
+   "sha256": "0ad4e87ce55b6ccf3dfa2913acda73950bba1e9dd3f28a67da6724a681a82b82"
+  },
+  "api/adapters/attach.py": {
+   "kind": "code",
+   "bytes": 9584,
+   "sha256": "7f7515e4d5521f757c9d89fe51afbce1ce235439098c7e3a41733993896a7b3f"
+  },
+  "api/adapters/caches.py": {
+   "kind": "code",
+   "bytes": 5042,
+   "sha256": "dee0eddd2d2b6308db1af1c57c4aa604275ae799742584329102e859e02e6780"
+  },
+  "api/adapters/catalog.py": {
+   "kind": "code",
+   "bytes": 15815,
+   "sha256": "4b229d93fc391b02d4bbd1edc220899832472918423946bd0a6fb131952ea6f5"
+  },
+  "api/adapters/compare_adapter.py": {
+   "kind": "code",
+   "bytes": 8986,
+   "sha256": "0366fb2a41d619679a03a0d6173d1161cdcf8520558f4267bcd708c5a8c4ab1a"
+  },
+  "api/adapters/engines.py": {
+   "kind": "code",
+   "bytes": 4195,
+   "sha256": "fb06bc67c98a672dda3447366699dd68802271e986972281a2b183a598b65489"
+  },
+  "api/adapters/readiness.py": {
+   "kind": "code",
+   "bytes": 6576,
+   "sha256": "8ff660b842f4ff66b7589faaa93ab457c8d89acfa7b0e89decdf08ff9de50c54"
+  },
+  "api/adapters/session.py": {
+   "kind": "code",
+   "bytes": 12156,
+   "sha256": "5b1f57e008c763ea91399806dabc840bcd2499c8ead27bcc64b8aeab41105eee"
+  },
+  "api/adapters/track_adapter.py": {
+   "kind": "code",
+   "bytes": 7154,
+   "sha256": "6741a254ab73290a1068972a957fd1b1691821d30d0f94460c32b641d4a5f1ae"
+  },
+  "api/adapters/walk_adapter.py": {
+   "kind": "code",
+   "bytes": 10299,
+   "sha256": "7e654b3c63ed347fc641c6802c1c577928903ad343caf955cc7410db096ad405"
+  },
+  "api/app.py": {
+   "kind": "code",
+   "bytes": 17972,
+   "sha256": "eca8d58cfa13956ac96a4865a204abbf3b1c34cdeaebb7a8c37c80fd0fdef075"
+  },
+  "api/fixtures/__init__.py": {
+   "kind": "code",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "api/fixtures/build_fixtures.py": {
+   "kind": "code",
+   "bytes": 5406,
+   "sha256": "ac78c089b7f2b0f7e148edbdf6a52706cbacf0bced571299b80ad63ba0fcbf9c"
+  },
+  "api/fixtures/compare_433_1_o2_203723_standard.json": {
+   "kind": "runtime asset",
+   "bytes": 156714,
+   "sha256": "6b89fa5b3abcdfc68b8b560c76b80749d4364690d740f15b2fef7062328429a8"
+  },
+  "api/fixtures/health.json": {
+   "kind": "runtime asset",
+   "bytes": 607,
+   "sha256": "c61ed5fee7b83591f774ab49e3a07fd84434dc7b891189d6417d25825ed9060c"
+  },
+  "api/fixtures/index.json": {
+   "kind": "runtime asset",
+   "bytes": 1301,
+   "sha256": "b8e0ae9d977501ef394c0da0f39e12d7be93bb46eae427d2deed931553a326a5"
+  },
+  "api/fixtures/track_433_analytical_o2_203723.json": {
+   "kind": "runtime asset",
+   "bytes": 21755,
+   "sha256": "2455aa108468cc8a4e40f46f958f8f19fea4ed73f810901d1b31c5b046a3f94f"
+  },
+  "api/fixtures/track_l1_replay_2026-10-17.json": {
+   "kind": "runtime asset",
+   "bytes": 29334,
+   "sha256": "aefed7bca9591f8cc042a5fd4c286d8b36b85aaf842451c73b9e6dd38b701485"
+  },
+  "api/fixtures/walk_o2_203723_standard.json": {
+   "kind": "runtime asset",
+   "bytes": 21653,
+   "sha256": "aac8cfc397e45fdb059391e04c20d0ed9c8439dedd5fd430f0b3a8f001174985"
+  },
+  "api/fixtures/walk_o2_203723_step_free.json": {
+   "kind": "runtime asset",
+   "bytes": 16474,
+   "sha256": "f6e136555e3377e66a40e487e760c505b453bfebe2232992e7461c3a3206da3b"
+  },
+  "api/schemas.py": {
+   "kind": "code",
+   "bytes": 5399,
+   "sha256": "ab642de78df7bb04799be6fdad1a21abb4d2e176f48e2bb4f3508a96ae211db1"
+  },
+  "api/serve.py": {
+   "kind": "code",
+   "bytes": 7861,
+   "sha256": "10cddf9516fa4362d1d1e62d43069c1457ece956f01e4e03ab331b977abc6d30"
+  },
+  "data/boundaries/glebe_suburb.geojson": {
+   "kind": "runtime asset",
+   "bytes": 18779,
+   "sha256": "2a07bf9d142e853b91fe84fc9cb5334a92ddb8ecb9fb5cd345909631cf87b278"
+  },
+  "data/cache/basemap/inner_west_basemap.json": {
+   "kind": "runtime asset",
+   "bytes": 1974230,
+   "sha256": "4acd39dcc6a9281e0bf5e446873e4563c01f52e9ada23b047687a8b1f5dd2f37"
+  },
+  "data/cache/glebe_stops_snapped.csv": {
+   "kind": "runtime asset",
+   "bytes": 7711,
+   "sha256": "38af0ecd359f0010c5a217f7ff9d63efca3ae6b16b7bfee6c70fc27e4dd5633c"
+  },
+  "data/cache/glebe_walk.graphml": {
+   "kind": "runtime asset",
+   "bytes": 3493639,
+   "sha256": "ae62e49051cbc1d5ccd842c644d858b5ed7e2ba17dd7141c5740ac2cc3bb28f3"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_30-370-sj2-1.10.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 14190,
+   "sha256": "8aaa494b8a946e6f288611472d16be08bc5b7d18a70c7f7c58395321ec017ea6"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_30-370-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 13109,
+   "sha256": "4eefc62bd61f7e755010198352bebdb88bfda05c8ae349a84618b6e706adc6e0"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_30-370-sj2-1.9.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 13634,
+   "sha256": "56f28fdfa4493a9e2066cfef591d3bb2a2df93f41deb6f978e83c76ec9c38853"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-412-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 8612,
+   "sha256": "c27fe4a06e8b12c6b6cdbec5f78123b55992f8528e3e46fcb16e477b374baad7"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-412-sj2-1.3.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 12686,
+   "sha256": "39b8952e60e030a124307a07a17c2dbdaa4f4e231c6ef3a6cbe55de2f749ad24"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-412-sj2-1.4.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 13921,
+   "sha256": "8c243a9f9b71969e87d9d0e7f15dde306d6c867402f664eac084f472517375b6"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-412-sj2-1.5.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 14979,
+   "sha256": "99fb9c1bfd4e303a36de61aca3778cce9d7e9ef8a3f4e1f05013a3e937299475"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-413-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 5367,
+   "sha256": "e17bd7ea4db71ebe4a34fadbfd553bffdc8a23e835b7407f0767267f13dea01f"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-413-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 10882,
+   "sha256": "d4166a272f2a6f5d379a2102a0653f6f4b2db9aa5014c974d88aa97323632e43"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-422-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 5596,
+   "sha256": "6fe97047d3fb3d26c73e7229268f95c2489919a06a5ec00b5953dab2f4a86fd9"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-422-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 10085,
+   "sha256": "d9d3da434a9f9c17916deb439d0c774c38f041abdffec27be2a812bcb0b1d256"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-431-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 2455,
+   "sha256": "05836ee1aaeaf7950541063c51bd8ab2155f2c813cbfae6bfe5856d56fa9302b"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-431-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 2711,
+   "sha256": "f424f3bd3b853063b7ce6ddd413673cab88cd98105cc68c47d74532d774830f7"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-431-sj2-1.3.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 2920,
+   "sha256": "381b7a0619b78a1ba27caacf994a981cee5ae226a67a9e163846a7e00c72829e"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-431-sj2-1.4.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 2251,
+   "sha256": "151b48817565b7009778bd30f9cf84be2565a4e01ee04f69034117bb28307d40"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-431-sj2-1.5.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 3079,
+   "sha256": "b5f6d8a332940992849e97e6ac613d87885bac73ad53a21d048312b888af314a"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 1984,
+   "sha256": "02158769e5157864982b668f654b8dfe1de4894c3b7195b5f30c1627cfc20464"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 5163,
+   "sha256": "672f998e7d36fce27bf5dba45f9e3fec076cb74eb275c9eaaa6ac1dd8c312631"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.3.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 5784,
+   "sha256": "b23c7dc6af7d0e8df419f7e70bca7938acb55192b4cbc462ddefe907808a1253"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.4.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 6755,
+   "sha256": "df91a75cd5dcff21e3da3e9b1a8f180cbb3c799c9c0090c157bcf4b5a0c43e75"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.5.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 5889,
+   "sha256": "1497bace591bc56f951e87664a568dc7bdc64603b8008090f77f11363da68b7f"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.6.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 6345,
+   "sha256": "d5cde36d2c28c4bb3893c687f29c577b7bffc95bb381c89622dafe08a0cd9939"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.7.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 6718,
+   "sha256": "0bfc3b1a1818f8aff48f0f19ebe5dfe2f3de6108f8cbafa0b883b81243e6a563"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-433-sj2-1.8.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 7418,
+   "sha256": "949f931189830fad58583894cb1805fb0bfbd807431b36c3a83b73eb01887683"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-438-N-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 8189,
+   "sha256": "f9e55d3fd49509e50584d30fadcb767b7ebe4830458ed25d8beb106b35359b95"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-440-sj2-1.6.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 7428,
+   "sha256": "af62216943931e68737448198e4c0466d9e528b572affa6879bb070fc38d5413"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-440-sj2-1.7.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 8594,
+   "sha256": "7b3f1b7d8c6f7e9044fc6b7f7b8a5343bc628a62dc2cb6a91b88056de67a2b0b"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-440-sj2-1.8.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 9187,
+   "sha256": "883e1a150c6f59751194a6ac8204d79f3d30f90028e49eecaa5882f8fbed65dd"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-440-sj2-1.9.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 10508,
+   "sha256": "b2a366f00613888761ad7622d4e7515b78b33015fd0447140afd224d7b547181"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-461-N-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 7505,
+   "sha256": "1657e39da6d6b2fd8763a0d026087659d5478e1b59e5270fae3a5e631a40f934"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-469-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 8510,
+   "sha256": "3f1c1843cea9a5b5f499c16d331cb8ae881166fb5dbdbfc65ff2cddeb1587690"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-470-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 5008,
+   "sha256": "516f81b7c0cb9b5d3e9e927d83f84c2cf0d48133a6932344eafb708002589c6b"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-470-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 5756,
+   "sha256": "3f258abe1b1c5889cd6ead106229c141e4708c75de95471afead0e6601b1fd67"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-470-sj2-1.3.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 5839,
+   "sha256": "9f95a1bbb3c633268e803e4afae6590983352c4c8b98dcba4cd876257960451a"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-480-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 11587,
+   "sha256": "9904badc4b8a663ab731b5bbf22a82c1e0ba3ecae61ccf29cab287d077a026b2"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-483-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 8313,
+   "sha256": "62983b082a5ac3650a0bd8241985554b136d3f928009c6ea63ec4c3e36651685"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_74-483-sj2-1.3.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 13029,
+   "sha256": "5fb41e23d5e0bb7d131e8211028bfc7b4a03f6b8afd30f4eb64ecb53ab25263a"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_78-L1-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 11377,
+   "sha256": "e9fe70c29c34592c95c3ad2608cdffd70dd510b061f1f2452bb879ea5b2d1327"
+  },
+  "data/cache/gtfs_shapes/b5d36487404b9f3f_78-L1-sj2-1.2.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 11140,
+   "sha256": "4771b279b35ab46e559a22dbfd0a3ff649ec64bfcf567b6e59c4ef09d34fd9ad"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_30-370-sj2-1.15.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 13363,
+   "sha256": "58b28acdbe95be450382f65f94048e5aa0d8299507469e35b881ed13916a3945"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_30-370-sj2-1.18.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 14190,
+   "sha256": "8aaa494b8a946e6f288611472d16be08bc5b7d18a70c7f7c58395321ec017ea6"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_30-370-sj2-1.5.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 13617,
+   "sha256": "5f58e28a5f44ed57b1bc009909529292dceb89ed794fca7a8654cc16060d069b"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_74-412-sj2-1.7.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 15560,
+   "sha256": "1feb975bd90fc8fc3a1a14cdbab2e43f6a48d6d78cfbc661aada1a94c2b0c4da"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_74-431-sj2-1.4.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 3033,
+   "sha256": "1df0b084d7a58319dbc61bacc15f2041253263c9efb30c52d0bdfbbe349d9175"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_74-433-sj2-1.4.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 7017,
+   "sha256": "b3d6a469bf5ddd3adeeda898b9b29c347f17c301a10f6658d9de87ec1ce95bef"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_74-433-sj2-1.8.H.csv": {
+   "kind": "runtime asset",
+   "bytes": 7706,
+   "sha256": "5b27fcf913f67622906c01b7fd44d0862784273bc64d26a83143c1b48532986a"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_74-438-N-sj2-1.2.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 8507,
+   "sha256": "ae5d2f385518a77e0bbe2cbf7b037c4a1971d9eaa51f7fae2e2a0888f78baaf1"
+  },
+  "data/cache/gtfs_shapes/f38ac0a11defca58_74-469-sj2-1.1.R.csv": {
+   "kind": "runtime asset",
+   "bytes": 8510,
+   "sha256": "3f1c1843cea9a5b5f499c16d331cb8ae881166fb5dbdbfc65ff2cddeb1587690"
+  },
+  "data/cache/mapped_steps.json": {
+   "kind": "runtime asset",
+   "bytes": 247943,
+   "sha256": "5dbf044182354237d172b8697ca9a5b476cf2aed7f21689b5094e2343b3dfcea"
+  },
+  "data/cache/stair_model/metadata.json": {
+   "kind": "runtime asset",
+   "bytes": 3716,
+   "sha256": "f80c446b3b73c305715087a7d9b28fddeebb75dce124f45261c2146d66d79481"
+  },
+  "data/cache/stair_model/stair_costs.csv": {
+   "kind": "runtime asset",
+   "bytes": 101199,
+   "sha256": "0e93c15544088e9c6fb9ae4f6e0c1442673a84d06cc2d10d92fe6820804ee746"
+  },
+  "data/cache/terrain_cost/edge_terrain_cost.csv": {
+   "kind": "runtime asset",
+   "bytes": 2458123,
+   "sha256": "ec914cee87c7d59eff6c664874c1005acd1312ed6e7dd6de7a3bdecabd324d80"
+  },
+  "data/cache/terrain_display/elevation_tint.png": {
+   "kind": "runtime asset",
+   "bytes": 649581,
+   "sha256": "3297d54b395989ce4d666664ea61ba7b44e9d13e1effd028c1edbd98048d7d7a"
+  },
+  "data/cache/terrain_display/hillshade.png": {
+   "kind": "runtime asset",
+   "bytes": 304093,
+   "sha256": "09ca77dda114b31a0ded6e26f0727a1ec389ed6c7c2480a9a49b185b497b5d9c"
+  },
+  "data/cache/terrain_display/major_contours.geojson": {
+   "kind": "runtime asset",
+   "bytes": 88015,
+   "sha256": "34a56f108b054045794a85aefe5b55e0d333b715e7aff26614b266447c7ca41b"
+  },
+  "data/cache/terrain_display/terrain_metadata.json": {
+   "kind": "runtime asset",
+   "bytes": 5854,
+   "sha256": "572f76eb721e2d665fa4eb364b8247ae836deb7f1f5c284b301c334cdf34004a"
+  },
+  "data/gtfs/feed_provenance.json": {
+   "kind": "runtime asset",
+   "bytes": 688,
+   "sha256": "0324bd0a838764bb1da984af470c2deb1734dd3ab95a6f0e37a59febc69d6685"
+  },
+  "data/gtfs/routes.txt": {
+   "kind": "runtime asset",
+   "bytes": 1247304,
+   "sha256": "3d9099578eccd06c117c0674956d596f1c0ef2db89766f979b1038a0591a3259"
+  },
+  "data/gtfs/trips.txt": {
+   "kind": "runtime asset",
+   "bytes": 31657070,
+   "sha256": "ba482b07382ec4583c3411e0be12f89058cc366c04a272a6b3a00eb794b9f28a"
+  },
+  "render.yaml": {
+   "kind": "config",
+   "bytes": 1207,
+   "sha256": "5eaac32381b1f27df0efd82238b4deae448a2a21adb2e939dc96f67c33166ab4"
+  },
+  "requirements.txt": {
+   "kind": "config",
+   "bytes": 755,
+   "sha256": "2e2a7d9a0b8931f54cd353bcf5d9c95540fb88681b302c3e167fe34848f25a8f"
+  },
+  "results/service_intent/candidate_stop_services.csv": {
+   "kind": "runtime asset",
+   "bytes": 13758,
+   "sha256": "d171b94f6a9310e8210e29ed710a4b94aae9c979194463cfb1d8fa52c47e1d3e"
+  },
+  "results/service_intent/candidate_stop_trips.csv": {
+   "kind": "runtime asset",
+   "bytes": 3322373,
+   "sha256": "cca5f095d86c4b02190411f3ee2a1e73e1660550cd7a25df1ca8e00421b145cf"
+  },
+  "results/service_intent/inspection.json": {
+   "kind": "runtime asset",
+   "bytes": 11134,
+   "sha256": "21747589be2d7fd2f9d417c5d552c92c481fac19414d8a688fc536a0601c5b18"
+  },
+  "results/service_intent/provenance.json": {
+   "kind": "runtime asset",
+   "bytes": 951,
+   "sha256": "c8a2ea870338ea59c336710a3842f4da8f4ed17ddd6f40f407d0989762d2ebe3"
+  },
+  "results/service_intent/service_calendar.csv": {
+   "kind": "runtime asset",
+   "bytes": 2283,
+   "sha256": "4966a95a1279f88fb270ef5813c4fa39f566dedaec69b2143f54f68d4f742d8d"
+  },
+  "results/service_intent/service_calendar_dates.csv": {
+   "kind": "runtime asset",
+   "bytes": 14929,
+   "sha256": "7dcfe44d6c1553111eb128843c4cec91e4613b38a6769a2badcb8e652a4673bf"
+  },
+  "scripts/analyse_gradient_sensitivity.py": {
+   "kind": "code",
+   "bytes": 21878,
+   "sha256": "f3e44b7153ba4de1dee433b260d27d3b454b2415ddbc53152972202e2546b7cb"
+  },
+  "scripts/audit_terrain_readiness.py": {
+   "kind": "code",
+   "bytes": 56322,
+   "sha256": "1fe7490e8b785ce60fcaaf3f8a7d9343f1c5176ce2ea0184d64565f698cd2ab1"
+  },
+  "scripts/build_terrain_cost.py": {
+   "kind": "code",
+   "bytes": 61015,
+   "sha256": "35d417f04c806094d22e5bd6809600fdf356c719380ca5f0f482b113e2c04db2"
+  },
+  "scripts/compare_terrain_routes.py": {
+   "kind": "code",
+   "bytes": 55876,
+   "sha256": "b7d98b1e01e16c31da1cbc2a4f79ab10ae3a42800ae914ef64787db918d7a040"
+  },
+  "scripts/demo_phase2_decision.py": {
+   "kind": "code",
+   "bytes": 73991,
+   "sha256": "a9a8539e8519d01be3a52f237c26edc7cf7c7e1728db88c30ac10b34dbdf83c1"
+  },
+  "scripts/demo_terrain_route.py": {
+   "kind": "code",
+   "bytes": 75490,
+   "sha256": "f50e9cc249255fc7bf4621915c99e4e72f70cb728774fcc70f93235a86baf48a"
+  },
+  "scripts/demo_week7_live_motion.py": {
+   "kind": "code",
+   "bytes": 60178,
+   "sha256": "e1a288fd2fc29cc2aca633a2a8bae21a7fa6ba3f09dd686fa89924008d12f04c"
+  },
+  "scripts/demo_week7_live_vehicles.py": {
+   "kind": "code",
+   "bytes": 37050,
+   "sha256": "172b61609682c7eadb3a8f8f9d1c98aa9b595fd2cab88a08de38347ebe322c85"
+  },
+  "scripts/demo_week7_realtime.py": {
+   "kind": "code",
+   "bytes": 31590,
+   "sha256": "475de148dfc54dd6c33dd494c2fc34336ceb93475cbd361688d7659b87061fc0"
+  },
+  "scripts/demo_week7_trip_tracking.py": {
+   "kind": "code",
+   "bytes": 91277,
+   "sha256": "7b27c7b9982878783cf60ee58848046c7d3155a69872b041ef5d4f2b0b0ecb3f"
+  },
+  "scripts/inspect_dem_profiles.py": {
+   "kind": "code",
+   "bytes": 25353,
+   "sha256": "2b70575a0b6d8081cca5aeb97d7f5ba730173b6a9d68a799879bece2217ecb81"
+  },
+  "scripts/inspect_gtfs_realtime.py": {
+   "kind": "code",
+   "bytes": 31854,
+   "sha256": "0f0393278ae0e39a69061398efa1c9ab55bdb8ec671e6b38f847f1b7b4a7d531"
+  },
+  "scripts/inspect_vehicle_positions.py": {
+   "kind": "code",
+   "bytes": 56742,
+   "sha256": "a2fcfa9c55bf40b993d4cd98c1bc76d01976a850de3314faf6f891d5ae7c8d17"
+  },
+  "scripts/phase2_decision.py": {
+   "kind": "code",
+   "bytes": 66343,
+   "sha256": "6270f02477aa6129a11a43d0093c3a329d08ac8c0ac120658f804d2a0dff409b"
+  },
+  "scripts/plot_terrain_routes.py": {
+   "kind": "code",
+   "bytes": 51983,
+   "sha256": "6367277997a8a7d222e214dfad0f55e95a26d9c7b91eab4932b8ca5ac3dc7fde"
+  },
+  "scripts/rank_candidate_stops.py": {
+   "kind": "code",
+   "bytes": 34804,
+   "sha256": "44c5929698401f25ca8775cfec6bb9730a5b2fc9820bd0af5210e2da048ca537"
+  },
+  "scripts/service_intent.py": {
+   "kind": "code",
+   "bytes": 18048,
+   "sha256": "43e7be6afaf0129325f403688d8b47f6d93956caa758ed33a01b7f5bc85bca30"
+  },
+  "scripts/show_glebe_live_arrivals.py": {
+   "kind": "code",
+   "bytes": 45790,
+   "sha256": "36eaa91aa3398d0b250cf039fb31b48e91b93aadb7a77ba71dcf9e4118e92fc7"
+  },
+  "scripts/time_optimal_route.py": {
+   "kind": "code",
+   "bytes": 24383,
+   "sha256": "4d25a42a32a37be46cd5e6fbacfb8d73661183742f8905a86e400b1c0c981c00"
+  },
+  "scripts/tobler_walking_time.py": {
+   "kind": "code",
+   "bytes": 12864,
+   "sha256": "7267785063c7a6f0d429eee1db2cb75def83f4926b4abebfce033e79d4668741"
+  },
+  "scripts/unified_ui/__init__.py": {
+   "kind": "code",
+   "bytes": 1444,
+   "sha256": "a0c87f18db993ad760a1a0664ea27f815e07241c3f32c77353c1fc6e1978df88"
+  },
+  "scripts/unified_ui/basemap.py": {
+   "kind": "code",
+   "bytes": 17938,
+   "sha256": "d1cbd6e6237af644beb08a720df3578daa6bb73b353b133e3c1ea1d23087c87d"
+  },
+  "scripts/unified_ui/compare_engine.py": {
+   "kind": "code",
+   "bytes": 13479,
+   "sha256": "3a926e6f3e0f9c8cc11772524feb46e9fe427ea5155fc7ac404099b5b16dcbbf"
+  },
+  "scripts/unified_ui/feed_adapter.py": {
+   "kind": "code",
+   "bytes": 7318,
+   "sha256": "dbe180d260c9d88604b5b2d98d20b43bcb687cb8f388272b0a817c8decd4a766"
+  },
+  "scripts/unified_ui/journey.py": {
+   "kind": "code",
+   "bytes": 25115,
+   "sha256": "8de2975fc231b22710feb205043657516d9c6214a66b28a05adc5944092df402"
+  },
+  "scripts/unified_ui/profile_phase2.py": {
+   "kind": "code",
+   "bytes": 16514,
+   "sha256": "aaf16bc0fd756e5e801e3155e94fbfb225e1b0644d30d461e8e09057efaec338"
+  },
+  "scripts/unified_ui/raw_shortest.py": {
+   "kind": "code",
+   "bytes": 15687,
+   "sha256": "7a02e79079b9ed08247ff0fffd404f27b45b43dbb64fe899653e8e2149440a20"
+  },
+  "scripts/unified_ui/scene_export.py": {
+   "kind": "code",
+   "bytes": 7680,
+   "sha256": "b39e15d1b1170150da7000f4f5917b91bdab62dbf730e45bde7ab5bd91a2ce64"
+  },
+  "scripts/unified_ui/standard_hybrid.py": {
+   "kind": "code",
+   "bytes": 27378,
+   "sha256": "eed2e46a26448995bf516a0951904468e6bbf10992534ff07c17315bb51dea08"
+  },
+  "scripts/unified_ui/state.py": {
+   "kind": "code",
+   "bytes": 15348,
+   "sha256": "c5a758bda57df8a35f278e745494e7368d179d9b9d1d23695a1674e174126b6d"
+  },
+  "scripts/unified_ui/track_engine.py": {
+   "kind": "code",
+   "bytes": 27892,
+   "sha256": "f9a4da87f5367c1ef0461d12651ca8e500743f48740db0ab8d82ff15cda959b9"
+  },
+  "scripts/unified_ui/walk_engine.py": {
+   "kind": "code",
+   "bytes": 15884,
+   "sha256": "14838867b115108e5d22e2c2266773a12c87550ad65e3364431a0abc6b763b3b"
+  },
+  "scripts/validate_short_edge_gradient.py": {
+   "kind": "code",
+   "bytes": 58360,
+   "sha256": "eb21c647c349e0868ef2847fd440f1083046eb6ba16a6d66491d1151cce33183"
+  },
+  "scripts/validate_walking_cost.py": {
+   "kind": "code",
+   "bytes": 24920,
+   "sha256": "71594f88c2c56cbea14af725bda67986d19dd71180da9cc4d4c53c5bd9cbd734"
+  },
+  "src/__init__.py": {
+   "kind": "code",
+   "bytes": 786,
+   "sha256": "a7652bef1631e9d2fd411c5215ee81d10a993cc1aa3a76bd04c523f27ad26ae7"
+  },
+  "src/boundary.py": {
+   "kind": "code",
+   "bytes": 3863,
+   "sha256": "eeab6447e74e50940b03f923b5f6f42e4d20725fb8cc8ede811d4c80ca5f33cf"
+  },
+  "src/config.py": {
+   "kind": "code",
+   "bytes": 8722,
+   "sha256": "f7cc946445f483de00fe8492799577b2c9e618c4dc7c2107d6ba0e8db5c38df2"
+  },
+  "src/osm_network.py": {
+   "kind": "code",
+   "bytes": 30488,
+   "sha256": "0c0c1c3838f369d0c4d74ec9d61950ba9c879fff0e88900ee2b97b7237343205"
+  },
+  "src/routing.py": {
+   "kind": "code",
+   "bytes": 21523,
+   "sha256": "10ce95d61f74d0669e8eac3e3f90b22bb6f34079ad196fae2b48207c4cf9c1f5"
+  },
+  "src/snapping.py": {
+   "kind": "code",
+   "bytes": 20776,
+   "sha256": "80641b4b8fb659bc98b5df7c31282fe7caddd13d0a8eede5751be138d06426a3"
+  },
+  "tests/fixtures/week11_l1/README.md": {
+   "kind": "runtime asset",
+   "bytes": 1896,
+   "sha256": "cb3d62e7426f46a8336c09165b27014d4ed14078923a47b729324bbdea739ac5"
+  },
+  "tests/fixtures/week11_l1/bus_433_replay_golden.json": {
+   "kind": "runtime asset",
+   "bytes": 178687,
+   "sha256": "144a60fe7a76ba314da9310b60440e5036189b3ca83aa221a1d6eea24a1664a8"
+  },
+  "tests/fixtures/week11_l1/historical_2026-10-17_0102/l1_trip_updates.json": {
+   "kind": "runtime asset",
+   "bytes": 551,
+   "sha256": "bff2377744cfede3dc29231de504022cf75087e6d60fbc49dd8d55f2dc1a4bb0"
+  },
+  "tests/fixtures/week11_l1/historical_2026-10-17_0102/l1_trip_updates.pb": {
+   "kind": "runtime asset",
+   "bytes": 9046,
+   "sha256": "4a4869ad395438df30de7a6604c331aa1e65f45674d57140ba679d149fdab1d4"
+  },
+  "tests/fixtures/week11_l1/historical_2026-10-17_0102/l1_vehicle_positions.json": {
+   "kind": "runtime asset",
+   "bytes": 553,
+   "sha256": "423f729ac43729d859f99bd1d35c4fc4328abb1f24bdf92cc694c34dc194d270"
+  },
+  "tests/fixtures/week11_l1/historical_2026-10-17_0102/l1_vehicle_positions.pb": {
+   "kind": "runtime asset",
+   "bytes": 1110,
+   "sha256": "cd3ef03f17ec6a08248d25a0689cefb3e66e2e5ae2d172c0f92f109c138e5161"
+  },
+  "tests/fixtures/week11_l1/l1_trip_updates.json": {
+   "kind": "runtime asset",
+   "bytes": 727,
+   "sha256": "69aea0ef9664c359b5166b4bc3fb2ffc92e2da7595778c6ecd18d98543afe65f"
+  },
+  "tests/fixtures/week11_l1/l1_trip_updates.pb": {
+   "kind": "runtime asset",
+   "bytes": 22474,
+   "sha256": "b4a472ef30b1d85fce92787cb20e8a33ae423c9c6f1351ad1e0ade3dd88e00ae"
+  },
+  "tests/fixtures/week11_l1/l1_vehicle_positions.json": {
+   "kind": "runtime asset",
+   "bytes": 728,
+   "sha256": "b44f2c1a752b721729c96e061b97368234999b929cf3d0a0981eb4af60f27d40"
+  },
+  "tests/fixtures/week11_l1/l1_vehicle_positions.pb": {
+   "kind": "runtime asset",
+   "bytes": 1286,
+   "sha256": "6995e02f476ae90f36128cc830f8fe616b9780f9ab6e02136da0a25cc7e52844"
+  },
+  "web/dist/assets/index-BkYYi8Yx.js": {
+   "kind": "frontend",
+   "bytes": 1029268,
+   "sha256": "747420e1ac0957335b98116715aaabbfd0358de8f4f217ced4faa980c8c9614d"
+  },
+  "web/dist/assets/index-cRW4lwsU.css": {
+   "kind": "frontend",
+   "bytes": 82287,
+   "sha256": "ed727ea0c2e48fd4cf16717103dba31b9fba66f5c22e4adf8eadc7565df1a352"
+  },
+  "web/dist/fonts/DejaVu Sans Regular/0-255.pbf": {
+   "kind": "frontend",
+   "bytes": 92575,
+   "sha256": "687591831c0a9feee0318afceb68bfdb3ee2ebed75fa0f6c56c1221da9d71af8"
+  },
+  "web/dist/index.html": {
+   "kind": "frontend",
+   "bytes": 488,
+   "sha256": "1438f26a816f1a18fefb5a5db83d502ba8e45539efbeb545b7d6711c87a36087"
+  }
+ }
+}

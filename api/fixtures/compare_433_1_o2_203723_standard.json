@@ -1,0 +1,7033 @@
+{
+ "recorded": {
+  "desktop_gold": "901232d39fa0f87eb479b4fcf7d0c3d74f2fb870",
+  "environment": {
+   "matplotlib": "3.11.2",
+   "python": "3.13.16"
+  },
+  "generated_at_utc": "2026-10-24T05:35:06Z",
+  "generator": "api.adapters.compare_adapter.compare",
+  "inputs": {
+   "direction_id": 1,
+   "observed_at": 1792731600,
+   "origin": {
+    "lat": -33.876602,
+    "lon": 151.1867514
+   },
+   "replay": null,
+   "route_short_name": "433",
+   "run_mode": "ANALYTICAL",
+   "selected_stop_id": "203723",
+   "selected_trip_id": null,
+   "service_date": "20261023",
+   "walking_profile": "standard"
+  },
+  "note": "golden fixture recorded from the validated engines; a deterministic stand-in, not live output"
+ },
+ "response": {
+  "candidate_stops": [
+   {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792732171,
+     "pedestrian_arrival_sydney": "2026-10-23 16:09:31 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792732171,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:09:31 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 65,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 209,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203714",
+     "time_route_walking_time_s": 571.318,
+     "trip_expected_arrival_epoch": 1792732380,
+     "trip_expected_arrival_sydney": "2026-10-23 16:13:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 13,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 1,
+    "geometry": {
+     "coordinates": [
+      151.18301997,
+      -33.87849888
+     ],
+     "type": "Point"
+    },
+    "highlights": [],
+    "mode": "bus",
+    "near_tie_group": 3,
+    "pareto_status": "dominated",
+    "route_identity": {
+     "all_same": false,
+     "distance_equals_effort": false,
+     "distinct_paths": 3,
+     "groups": [
+      [
+       "distance"
+      ],
+      [
+       "effort"
+      ],
+      [
+       "time"
+      ]
+     ],
+     "time_equals_distance": false,
+     "time_equals_effort": false
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 663.737,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ],
+       [
+        7747669921,
+        7747669963,
+        0
+       ],
+       [
+        7747669963,
+        12134876584,
+        0
+       ],
+       [
+        12134876584,
+        7747669922,
+        0
+       ],
+       [
+        7747669922,
+        7747669965,
+        0
+       ],
+       [
+        7747669965,
+        11533591039,
+        0
+       ],
+       [
+        11533591039,
+        11533591038,
+        0
+       ],
+       [
+        11533591038,
+        2743996041,
+        0
+       ],
+       [
+        2743996041,
+        1832969485,
+        0
+       ],
+       [
+        1832969485,
+        1832969488,
+        0
+       ],
+       [
+        1832969488,
+        5726944852,
+        0
+       ],
+       [
+        5726944852,
+        1832888614,
+        0
+       ],
+       [
+        1832888614,
+        11533591049,
+        0
+       ]
+      ],
+      "edges": 25,
+      "effort_j_per_kg": 2377.3563,
+      "walking_time_min": 9.522,
+      "walking_time_s": 571.318
+     },
+     "gentlest": {
+      "distance_m": 664.005,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ],
+       [
+        7747669921,
+        7747669963,
+        0
+       ],
+       [
+        7747669963,
+        1832888592,
+        0
+       ],
+       [
+        1832888592,
+        5140807086,
+        0
+       ],
+       [
+        5140807086,
+        1832969482,
+        0
+       ],
+       [
+        1832969482,
+        2743996041,
+        0
+       ],
+       [
+        2743996041,
+        1832969485,
+        0
+       ],
+       [
+        1832969485,
+        1832969488,
+        0
+       ],
+       [
+        1832969488,
+        5726944852,
+        0
+       ],
+       [
+        5726944852,
+        11533591047,
+        0
+       ],
+       [
+        11533591047,
+        11533591049,
+        0
+       ]
+      ],
+      "edges": 23,
+      "effort_j_per_kg": 2370.8934,
+      "walking_time_min": 9.546,
+      "walking_time_s": 572.764
+     },
+     "shortest": {
+      "distance_m": 662.954,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ],
+       [
+        7747669921,
+        7747669963,
+        0
+       ],
+       [
+        7747669963,
+        12134876584,
+        0
+       ],
+       [
+        12134876584,
+        7747669922,
+        0
+       ],
+       [
+        7747669922,
+        7747669965,
+        0
+       ],
+       [
+        7747669965,
+        11533591039,
+        0
+       ],
+       [
+        11533591039,
+        11533591038,
+        0
+       ],
+       [
+        11533591038,
+        11533591048,
+        0
+       ],
+       [
+        11533591048,
+        5726944852,
+        0
+       ],
+       [
+        5726944852,
+        11533591047,
+        0
+       ],
+       [
+        11533591047,
+        11533591049,
+        0
+       ]
+      ],
+      "edges": 23,
+      "effort_j_per_kg": 2380.2643,
+      "walking_time_min": 9.549,
+      "walking_time_s": 572.925
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 209,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.183262,
+       -33.878362
+      ],
+      [
+       151.18301997,
+       -33.87849888
+      ]
+     ],
+     "display_only": true,
+     "length_m": 27.05,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203714",
+    "stop_name": "Wigram Rd At Bell Lane",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": true,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731180,
+      "expected_arrival_sydney": "2026-10-23 15:53:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731180,
+      "service_date": "20261023",
+      "slack_s": -991,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731780,
+      "expected_arrival_sydney": "2026-10-23 16:03:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731780,
+      "service_date": "20261023",
+      "slack_s": -391,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732380,
+      "expected_arrival_sydney": "2026-10-23 16:13:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732380,
+      "service_date": "20261023",
+      "slack_s": 209,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732860,
+      "expected_arrival_sydney": "2026-10-23 16:21:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732860,
+      "service_date": "20261023",
+      "slack_s": 689,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733460,
+      "expected_arrival_sydney": "2026-10-23 16:31:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733460,
+      "service_date": "20261023",
+      "slack_s": 1289,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734060,
+      "expected_arrival_sydney": "2026-10-23 16:41:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734060,
+      "service_date": "20261023",
+      "slack_s": 1889,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734660,
+      "expected_arrival_sydney": "2026-10-23 16:51:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734660,
+      "service_date": "20261023",
+      "slack_s": 2489,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735260,
+      "expected_arrival_sydney": "2026-10-23 17:01:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735260,
+      "service_date": "20261023",
+      "slack_s": 3089,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735860,
+      "expected_arrival_sydney": "2026-10-23 17:11:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735860,
+      "service_date": "20261023",
+      "slack_s": 3689,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736460,
+      "expected_arrival_sydney": "2026-10-23 17:21:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736460,
+      "service_date": "20261023",
+      "slack_s": 4289,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737060,
+      "expected_arrival_sydney": "2026-10-23 17:31:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737060,
+      "service_date": "20261023",
+      "slack_s": 4889,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737660,
+      "expected_arrival_sydney": "2026-10-23 17:41:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737660,
+      "service_date": "20261023",
+      "slack_s": 5489,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   },
+   {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792731990,
+     "pedestrian_arrival_sydney": "2026-10-23 16:06:30 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792731990,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:06:30 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 65,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 450,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203723",
+     "time_route_walking_time_s": 390.2717,
+     "trip_expected_arrival_epoch": 1792732440,
+     "trip_expected_arrival_sydney": "2026-10-23 16:14:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 6,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 2,
+    "geometry": {
+     "coordinates": [
+      151.18548982,
+      -33.87775714
+     ],
+     "type": "Point"
+    },
+    "highlights": [
+     "lowest_modelled_walking_time",
+     "shortest_walk",
+     "pareto_non_dominated"
+    ],
+    "mode": "bus",
+    "near_tie_group": null,
+    "pareto_status": "non_dominated",
+    "route_identity": {
+     "all_same": true,
+     "distance_equals_effort": true,
+     "distinct_paths": 1,
+     "groups": [
+      [
+       "distance",
+       "effort",
+       "time"
+      ]
+     ],
+     "time_equals_distance": true,
+     "time_equals_effort": true
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 404.199,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ]
+      ],
+      "edges": 13,
+      "effort_j_per_kg": 1755.6695,
+      "walking_time_min": 6.505,
+      "walking_time_s": 390.272
+     },
+     "gentlest": {
+      "distance_m": 404.199,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ]
+      ],
+      "edges": 13,
+      "effort_j_per_kg": 1755.6695,
+      "walking_time_min": 6.505,
+      "walking_time_s": 390.272
+     },
+     "shortest": {
+      "distance_m": 404.199,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ]
+      ],
+      "edges": 13,
+      "effort_j_per_kg": 1755.6695,
+      "walking_time_min": 6.505,
+      "walking_time_s": 390.272
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 450,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1854036,
+       -33.8777938
+      ],
+      [
+       151.18548982,
+       -33.87775714
+      ]
+     ],
+     "display_only": true,
+     "length_m": 8.95,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203723",
+    "stop_name": "Glebe Point Rd Opp Glebe Library",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": true,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731240,
+      "expected_arrival_sydney": "2026-10-23 15:54:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731240,
+      "service_date": "20261023",
+      "slack_s": -750,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731840,
+      "expected_arrival_sydney": "2026-10-23 16:04:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731840,
+      "service_date": "20261023",
+      "slack_s": -150,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732440,
+      "expected_arrival_sydney": "2026-10-23 16:14:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732440,
+      "service_date": "20261023",
+      "slack_s": 450,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732920,
+      "expected_arrival_sydney": "2026-10-23 16:22:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732920,
+      "service_date": "20261023",
+      "slack_s": 930,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733520,
+      "expected_arrival_sydney": "2026-10-23 16:32:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733520,
+      "service_date": "20261023",
+      "slack_s": 1530,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734120,
+      "expected_arrival_sydney": "2026-10-23 16:42:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734120,
+      "service_date": "20261023",
+      "slack_s": 2130,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734720,
+      "expected_arrival_sydney": "2026-10-23 16:52:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734720,
+      "service_date": "20261023",
+      "slack_s": 2730,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735320,
+      "expected_arrival_sydney": "2026-10-23 17:02:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735320,
+      "service_date": "20261023",
+      "slack_s": 3330,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735920,
+      "expected_arrival_sydney": "2026-10-23 17:12:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735920,
+      "service_date": "20261023",
+      "slack_s": 3930,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736520,
+      "expected_arrival_sydney": "2026-10-23 17:22:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736520,
+      "service_date": "20261023",
+      "slack_s": 4530,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737120,
+      "expected_arrival_sydney": "2026-10-23 17:32:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737120,
+      "service_date": "20261023",
+      "slack_s": 5130,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737720,
+      "expected_arrival_sydney": "2026-10-23 17:42:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737720,
+      "service_date": "20261023",
+      "slack_s": 5730,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   },
+   {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792732055,
+     "pedestrian_arrival_sydney": "2026-10-23 16:07:35 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792732055,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:07:35 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 65,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 505,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203724",
+     "time_route_walking_time_s": 455.32400000000007,
+     "trip_expected_arrival_epoch": 1792732560,
+     "trip_expected_arrival_sydney": "2026-10-23 16:16:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 5,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 3,
+    "geometry": {
+     "coordinates": [
+      151.18685081,
+      -33.87952182
+     ],
+     "type": "Point"
+    },
+    "highlights": [
+     "lowest_terrain_effort",
+     "pareto_non_dominated"
+    ],
+    "mode": "bus",
+    "near_tie_group": 2,
+    "pareto_status": "non_dominated",
+    "route_identity": {
+     "all_same": false,
+     "distance_equals_effort": false,
+     "distinct_paths": 2,
+     "groups": [
+      [
+       "distance"
+      ],
+      [
+       "effort",
+       "time"
+      ]
+     ],
+     "time_equals_distance": false,
+     "time_equals_effort": true
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 534.721,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2545267121,
+        0
+       ],
+       [
+        2545267121,
+        1832960868,
+        0
+       ],
+       [
+        1832960868,
+        1832960871,
+        0
+       ],
+       [
+        1832960871,
+        1832960875,
+        0
+       ],
+       [
+        1832960875,
+        1832960885,
+        0
+       ],
+       [
+        1832960885,
+        9294920531,
+        0
+       ],
+       [
+        9294920531,
+        9282094558,
+        0
+       ],
+       [
+        9282094558,
+        11081007788,
+        0
+       ]
+      ],
+      "edges": 16,
+      "effort_j_per_kg": 1724.4706,
+      "walking_time_min": 7.589,
+      "walking_time_s": 455.324
+     },
+     "gentlest": {
+      "distance_m": 534.721,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2545267121,
+        0
+       ],
+       [
+        2545267121,
+        1832960868,
+        0
+       ],
+       [
+        1832960868,
+        1832960871,
+        0
+       ],
+       [
+        1832960871,
+        1832960875,
+        0
+       ],
+       [
+        1832960875,
+        1832960885,
+        0
+       ],
+       [
+        1832960885,
+        9294920531,
+        0
+       ],
+       [
+        9294920531,
+        9282094558,
+        0
+       ],
+       [
+        9282094558,
+        11081007788,
+        0
+       ]
+      ],
+      "edges": 16,
+      "effort_j_per_kg": 1724.4706,
+      "walking_time_min": 7.589,
+      "walking_time_s": 455.324
+     },
+     "shortest": {
+      "distance_m": 527.973,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        1832329830,
+        0
+       ],
+       [
+        1832329830,
+        1832329834,
+        0
+       ],
+       [
+        1832329834,
+        7747325532,
+        0
+       ],
+       [
+        7747325532,
+        1832329942,
+        0
+       ],
+       [
+        1832329942,
+        1832329955,
+        0
+       ],
+       [
+        1832329955,
+        1835861045,
+        0
+       ],
+       [
+        1835861045,
+        1832329984,
+        0
+       ],
+       [
+        1832329984,
+        1832960858,
+        0
+       ],
+       [
+        1832960858,
+        12847942399,
+        0
+       ],
+       [
+        12847942399,
+        1832960861,
+        0
+       ],
+       [
+        1832960861,
+        12128998957,
+        0
+       ],
+       [
+        12128998957,
+        9282094550,
+        0
+       ],
+       [
+        9282094550,
+        11081007788,
+        0
+       ]
+      ],
+      "edges": 18,
+      "effort_j_per_kg": 1748.1749,
+      "walking_time_min": 7.593,
+      "walking_time_s": 455.602
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 505,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1869964,
+       -33.8797002
+      ],
+      [
+       151.18685081,
+       -33.87952182
+      ]
+     ],
+     "display_only": true,
+     "length_m": 23.93,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203724",
+    "stop_name": "Glebe Point Rd At Bridge Rd",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": true,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731360,
+      "expected_arrival_sydney": "2026-10-23 15:56:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731360,
+      "service_date": "20261023",
+      "slack_s": -695,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731960,
+      "expected_arrival_sydney": "2026-10-23 16:06:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731960,
+      "service_date": "20261023",
+      "slack_s": -95,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732560,
+      "expected_arrival_sydney": "2026-10-23 16:16:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732560,
+      "service_date": "20261023",
+      "slack_s": 505,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733040,
+      "expected_arrival_sydney": "2026-10-23 16:24:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733040,
+      "service_date": "20261023",
+      "slack_s": 985,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733640,
+      "expected_arrival_sydney": "2026-10-23 16:34:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733640,
+      "service_date": "20261023",
+      "slack_s": 1585,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734240,
+      "expected_arrival_sydney": "2026-10-23 16:44:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734240,
+      "service_date": "20261023",
+      "slack_s": 2185,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734840,
+      "expected_arrival_sydney": "2026-10-23 16:54:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734840,
+      "service_date": "20261023",
+      "slack_s": 2785,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735440,
+      "expected_arrival_sydney": "2026-10-23 17:04:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735440,
+      "service_date": "20261023",
+      "slack_s": 3385,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736040,
+      "expected_arrival_sydney": "2026-10-23 17:14:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736040,
+      "service_date": "20261023",
+      "slack_s": 3985,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736640,
+      "expected_arrival_sydney": "2026-10-23 17:24:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736640,
+      "service_date": "20261023",
+      "slack_s": 4585,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737240,
+      "expected_arrival_sydney": "2026-10-23 17:34:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737240,
+      "service_date": "20261023",
+      "slack_s": 5185,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737840,
+      "expected_arrival_sydney": "2026-10-23 17:44:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737840,
+      "service_date": "20261023",
+      "slack_s": 5785,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   },
+   {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792732157,
+     "pedestrian_arrival_sydney": "2026-10-23 16:09:17 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792732157,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:09:17 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 65,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 463,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203725",
+     "time_route_walking_time_s": 557.2684,
+     "trip_expected_arrival_epoch": 1792732620,
+     "trip_expected_arrival_sydney": "2026-10-23 16:17:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 9,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 4,
+    "geometry": {
+     "coordinates": [
+      151.18779324,
+      -33.88067905
+     ],
+     "type": "Point"
+    },
+    "highlights": [],
+    "mode": "bus",
+    "near_tie_group": null,
+    "pareto_status": "dominated",
+    "route_identity": {
+     "all_same": true,
+     "distance_equals_effort": true,
+     "distinct_paths": 1,
+     "groups": [
+      [
+       "distance",
+       "effort",
+       "time"
+      ]
+     ],
+     "time_equals_distance": true,
+     "time_equals_effort": true
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 653.472,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2545267121,
+        0
+       ],
+       [
+        2545267121,
+        1832960868,
+        0
+       ],
+       [
+        1832960868,
+        1832960871,
+        0
+       ],
+       [
+        1832960871,
+        1832960875,
+        0
+       ],
+       [
+        1832960875,
+        1832960885,
+        0
+       ],
+       [
+        1832960885,
+        9282182858,
+        0
+       ],
+       [
+        9282182858,
+        11081007792,
+        0
+       ],
+       [
+        11081007792,
+        9282182856,
+        0
+       ],
+       [
+        9282182856,
+        11081007800,
+        0
+       ]
+      ],
+      "edges": 17,
+      "effort_j_per_kg": 2158.6398,
+      "walking_time_min": 9.288,
+      "walking_time_s": 557.268
+     },
+     "gentlest": {
+      "distance_m": 653.472,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2545267121,
+        0
+       ],
+       [
+        2545267121,
+        1832960868,
+        0
+       ],
+       [
+        1832960868,
+        1832960871,
+        0
+       ],
+       [
+        1832960871,
+        1832960875,
+        0
+       ],
+       [
+        1832960875,
+        1832960885,
+        0
+       ],
+       [
+        1832960885,
+        9282182858,
+        0
+       ],
+       [
+        9282182858,
+        11081007792,
+        0
+       ],
+       [
+        11081007792,
+        9282182856,
+        0
+       ],
+       [
+        9282182856,
+        11081007800,
+        0
+       ]
+      ],
+      "edges": 17,
+      "effort_j_per_kg": 2158.6398,
+      "walking_time_min": 9.288,
+      "walking_time_s": 557.268
+     },
+     "shortest": {
+      "distance_m": 653.472,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2545267121,
+        0
+       ],
+       [
+        2545267121,
+        1832960868,
+        0
+       ],
+       [
+        1832960868,
+        1832960871,
+        0
+       ],
+       [
+        1832960871,
+        1832960875,
+        0
+       ],
+       [
+        1832960875,
+        1832960885,
+        0
+       ],
+       [
+        1832960885,
+        9282182858,
+        0
+       ],
+       [
+        9282182858,
+        11081007792,
+        0
+       ],
+       [
+        11081007792,
+        9282182856,
+        0
+       ],
+       [
+        9282182856,
+        11081007800,
+        0
+       ]
+      ],
+      "edges": 17,
+      "effort_j_per_kg": 2158.6398,
+      "walking_time_min": 9.288,
+      "walking_time_s": 557.268
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 463,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1878282,
+       -33.8807159
+      ],
+      [
+       151.18779324,
+       -33.88067905
+      ]
+     ],
+     "display_only": true,
+     "length_m": 5.21,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203725",
+    "stop_name": "Glebe Point Rd At St Johns Rd",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": true,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731420,
+      "expected_arrival_sydney": "2026-10-23 15:57:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731420,
+      "service_date": "20261023",
+      "slack_s": -737,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732020,
+      "expected_arrival_sydney": "2026-10-23 16:07:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732020,
+      "service_date": "20261023",
+      "slack_s": -137,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732620,
+      "expected_arrival_sydney": "2026-10-23 16:17:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732620,
+      "service_date": "20261023",
+      "slack_s": 463,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733100,
+      "expected_arrival_sydney": "2026-10-23 16:25:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733100,
+      "service_date": "20261023",
+      "slack_s": 943,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733700,
+      "expected_arrival_sydney": "2026-10-23 16:35:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733700,
+      "service_date": "20261023",
+      "slack_s": 1543,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734300,
+      "expected_arrival_sydney": "2026-10-23 16:45:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734300,
+      "service_date": "20261023",
+      "slack_s": 2143,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734900,
+      "expected_arrival_sydney": "2026-10-23 16:55:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734900,
+      "service_date": "20261023",
+      "slack_s": 2743,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735500,
+      "expected_arrival_sydney": "2026-10-23 17:05:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735500,
+      "service_date": "20261023",
+      "slack_s": 3343,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736100,
+      "expected_arrival_sydney": "2026-10-23 17:15:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736100,
+      "service_date": "20261023",
+      "slack_s": 3943,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736700,
+      "expected_arrival_sydney": "2026-10-23 17:25:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736700,
+      "service_date": "20261023",
+      "slack_s": 4543,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737300,
+      "expected_arrival_sydney": "2026-10-23 17:35:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737300,
+      "service_date": "20261023",
+      "slack_s": 5143,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737900,
+      "expected_arrival_sydney": "2026-10-23 17:45:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737900,
+      "service_date": "20261023",
+      "slack_s": 5743,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   },
+   {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792732266,
+     "pedestrian_arrival_sydney": "2026-10-23 16:11:06 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792732266,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:11:06 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 65,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 474,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203726",
+     "time_route_walking_time_s": 666.2596999999998,
+     "trip_expected_arrival_epoch": 1792732740,
+     "trip_expected_arrival_sydney": "2026-10-23 16:19:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 14,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 5,
+    "geometry": {
+     "coordinates": [
+      151.18959605,
+      -33.88197816
+     ],
+     "type": "Point"
+    },
+    "highlights": [],
+    "mode": "bus",
+    "near_tie_group": 4,
+    "pareto_status": "dominated",
+    "route_identity": {
+     "all_same": true,
+     "distance_equals_effort": true,
+     "distinct_paths": 1,
+     "groups": [
+      [
+       "distance",
+       "effort",
+       "time"
+      ]
+     ],
+     "time_equals_distance": true,
+     "time_equals_effort": true
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 837.064,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ]
+      ],
+      "edges": 23,
+      "effort_j_per_kg": 2416.1657,
+      "walking_time_min": 11.104,
+      "walking_time_s": 666.26
+     },
+     "gentlest": {
+      "distance_m": 837.064,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ]
+      ],
+      "edges": 23,
+      "effort_j_per_kg": 2416.1657,
+      "walking_time_min": 11.104,
+      "walking_time_s": 666.26
+     },
+     "shortest": {
+      "distance_m": 837.064,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ]
+      ],
+      "edges": 23,
+      "effort_j_per_kg": 2416.1657,
+      "walking_time_min": 11.104,
+      "walking_time_s": 666.26
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 474,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1896721,
+       -33.882048
+      ],
+      [
+       151.18959605,
+       -33.88197816
+      ]
+     ],
+     "display_only": true,
+     "length_m": 10.46,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203726",
+    "stop_name": "Glebe Point Rd At Mitchell St",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": true,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731540,
+      "expected_arrival_sydney": "2026-10-23 15:59:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731540,
+      "service_date": "20261023",
+      "slack_s": -726,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732140,
+      "expected_arrival_sydney": "2026-10-23 16:09:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732140,
+      "service_date": "20261023",
+      "slack_s": -126,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732740,
+      "expected_arrival_sydney": "2026-10-23 16:19:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732740,
+      "service_date": "20261023",
+      "slack_s": 474,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733220,
+      "expected_arrival_sydney": "2026-10-23 16:27:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733220,
+      "service_date": "20261023",
+      "slack_s": 954,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733820,
+      "expected_arrival_sydney": "2026-10-23 16:37:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733820,
+      "service_date": "20261023",
+      "slack_s": 1554,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734420,
+      "expected_arrival_sydney": "2026-10-23 16:47:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734420,
+      "service_date": "20261023",
+      "slack_s": 2154,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735020,
+      "expected_arrival_sydney": "2026-10-23 16:57:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735020,
+      "service_date": "20261023",
+      "slack_s": 2754,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735620,
+      "expected_arrival_sydney": "2026-10-23 17:07:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735620,
+      "service_date": "20261023",
+      "slack_s": 3354,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736220,
+      "expected_arrival_sydney": "2026-10-23 17:17:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736220,
+      "service_date": "20261023",
+      "slack_s": 3954,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736820,
+      "expected_arrival_sydney": "2026-10-23 17:27:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736820,
+      "service_date": "20261023",
+      "slack_s": 4554,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737420,
+      "expected_arrival_sydney": "2026-10-23 17:37:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737420,
+      "service_date": "20261023",
+      "slack_s": 5154,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792738020,
+      "expected_arrival_sydney": "2026-10-23 17:47:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792738020,
+      "service_date": "20261023",
+      "slack_s": 5754,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   },
+   {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792732397,
+     "pedestrian_arrival_sydney": "2026-10-23 16:13:17 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792732397,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:13:17 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 64,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 403,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203727",
+     "time_route_walking_time_s": 797.4830999999999,
+     "trip_expected_arrival_epoch": 1792732800,
+     "trip_expected_arrival_sydney": "2026-10-23 16:20:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 19,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 6,
+    "geometry": {
+     "coordinates": [
+      151.19101682,
+      -33.88297491
+     ],
+     "type": "Point"
+    },
+    "highlights": [],
+    "mode": "bus",
+    "near_tie_group": 5,
+    "pareto_status": "dominated",
+    "route_identity": {
+     "all_same": true,
+     "distance_equals_effort": true,
+     "distinct_paths": 1,
+     "groups": [
+      [
+       "distance",
+       "effort",
+       "time"
+      ]
+     ],
+     "time_equals_distance": true,
+     "time_equals_effort": true
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 1012.225,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ],
+       [
+        11079421723,
+        9294920528,
+        0
+       ],
+       [
+        9294920528,
+        9282182852,
+        0
+       ],
+       [
+        9282182852,
+        11081343247,
+        0
+       ],
+       [
+        11081343247,
+        11079391532,
+        0
+       ]
+      ],
+      "edges": 27,
+      "effort_j_per_kg": 2902.4457,
+      "walking_time_min": 13.291,
+      "walking_time_s": 797.483
+     },
+     "gentlest": {
+      "distance_m": 1012.225,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ],
+       [
+        11079421723,
+        9294920528,
+        0
+       ],
+       [
+        9294920528,
+        9282182852,
+        0
+       ],
+       [
+        9282182852,
+        11081343247,
+        0
+       ],
+       [
+        11081343247,
+        11079391532,
+        0
+       ]
+      ],
+      "edges": 27,
+      "effort_j_per_kg": 2902.4457,
+      "walking_time_min": 13.291,
+      "walking_time_s": 797.483
+     },
+     "shortest": {
+      "distance_m": 1012.225,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ],
+       [
+        11079421723,
+        9294920528,
+        0
+       ],
+       [
+        9294920528,
+        9282182852,
+        0
+       ],
+       [
+        9282182852,
+        11081343247,
+        0
+       ],
+       [
+        11081343247,
+        11079391532,
+        0
+       ]
+      ],
+      "edges": 27,
+      "effort_j_per_kg": 2902.4457,
+      "walking_time_min": 13.291,
+      "walking_time_s": 797.483
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 403,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1911285,
+       -33.8830576
+      ],
+      [
+       151.19101682,
+       -33.88297491
+      ]
+     ],
+     "display_only": true,
+     "length_m": 13.81,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203727",
+    "stop_name": "Glebe Point Rd Opp Glebe Public School",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731600,
+      "expected_arrival_sydney": "2026-10-23 16:00:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731600,
+      "service_date": "20261023",
+      "slack_s": -797,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732200,
+      "expected_arrival_sydney": "2026-10-23 16:10:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732200,
+      "service_date": "20261023",
+      "slack_s": -197,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732800,
+      "expected_arrival_sydney": "2026-10-23 16:20:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732800,
+      "service_date": "20261023",
+      "slack_s": 403,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733280,
+      "expected_arrival_sydney": "2026-10-23 16:28:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733280,
+      "service_date": "20261023",
+      "slack_s": 883,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733880,
+      "expected_arrival_sydney": "2026-10-23 16:38:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733880,
+      "service_date": "20261023",
+      "slack_s": 1483,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734480,
+      "expected_arrival_sydney": "2026-10-23 16:48:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734480,
+      "service_date": "20261023",
+      "slack_s": 2083,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735080,
+      "expected_arrival_sydney": "2026-10-23 16:58:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735080,
+      "service_date": "20261023",
+      "slack_s": 2683,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735680,
+      "expected_arrival_sydney": "2026-10-23 17:08:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735680,
+      "service_date": "20261023",
+      "slack_s": 3283,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736280,
+      "expected_arrival_sydney": "2026-10-23 17:18:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736280,
+      "service_date": "20261023",
+      "slack_s": 3883,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736880,
+      "expected_arrival_sydney": "2026-10-23 17:28:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736880,
+      "service_date": "20261023",
+      "slack_s": 4483,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737480,
+      "expected_arrival_sydney": "2026-10-23 17:38:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737480,
+      "service_date": "20261023",
+      "slack_s": 5083,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792738080,
+      "expected_arrival_sydney": "2026-10-23 17:48:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792738080,
+      "service_date": "20261023",
+      "slack_s": 5683,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   },
+   {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792732564,
+     "pedestrian_arrival_sydney": "2026-10-23 16:16:04 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792732564,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:16:04 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 64,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 356,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203728",
+     "time_route_walking_time_s": 963.9184999999999,
+     "trip_expected_arrival_epoch": 1792732920,
+     "trip_expected_arrival_sydney": "2026-10-23 16:22:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 29,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 7,
+    "geometry": {
+     "coordinates": [
+      151.19293066,
+      -33.88433324
+     ],
+     "type": "Point"
+    },
+    "highlights": [],
+    "mode": "bus",
+    "near_tie_group": 8,
+    "pareto_status": "dominated",
+    "route_identity": {
+     "all_same": true,
+     "distance_equals_effort": true,
+     "distinct_paths": 1,
+     "groups": [
+      [
+       "distance",
+       "effort",
+       "time"
+      ]
+     ],
+     "time_equals_distance": true,
+     "time_equals_effort": true
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 1242.564,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ],
+       [
+        11079421723,
+        9282094237,
+        0
+       ],
+       [
+        9282094237,
+        11079421722,
+        0
+       ],
+       [
+        11079421722,
+        9282094066,
+        0
+       ],
+       [
+        9282094066,
+        11081343246,
+        0
+       ],
+       [
+        11081343246,
+        9750623313,
+        0
+       ],
+       [
+        9750623313,
+        9282094075,
+        0
+       ],
+       [
+        9282094075,
+        12069982328,
+        0
+       ],
+       [
+        12069982328,
+        9282094266,
+        0
+       ],
+       [
+        9282094266,
+        11079391546,
+        0
+       ],
+       [
+        11079391546,
+        9282094045,
+        0
+       ],
+       [
+        9282094045,
+        9750617915,
+        0
+       ],
+       [
+        9750617915,
+        9282094032,
+        0
+       ]
+      ],
+      "edges": 35,
+      "effort_j_per_kg": 3490.8911,
+      "walking_time_min": 16.065,
+      "walking_time_s": 963.918
+     },
+     "gentlest": {
+      "distance_m": 1242.564,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ],
+       [
+        11079421723,
+        9282094237,
+        0
+       ],
+       [
+        9282094237,
+        11079421722,
+        0
+       ],
+       [
+        11079421722,
+        9282094066,
+        0
+       ],
+       [
+        9282094066,
+        11081343246,
+        0
+       ],
+       [
+        11081343246,
+        9750623313,
+        0
+       ],
+       [
+        9750623313,
+        9282094075,
+        0
+       ],
+       [
+        9282094075,
+        12069982328,
+        0
+       ],
+       [
+        12069982328,
+        9282094266,
+        0
+       ],
+       [
+        9282094266,
+        11079391546,
+        0
+       ],
+       [
+        11079391546,
+        9282094045,
+        0
+       ],
+       [
+        9282094045,
+        9750617915,
+        0
+       ],
+       [
+        9750617915,
+        9282094032,
+        0
+       ]
+      ],
+      "edges": 35,
+      "effort_j_per_kg": 3490.8911,
+      "walking_time_min": 16.065,
+      "walking_time_s": 963.918
+     },
+     "shortest": {
+      "distance_m": 1242.564,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1832329799,
+        0
+       ],
+       [
+        1832329799,
+        1832329815,
+        0
+       ],
+       [
+        1832329815,
+        5778251857,
+        0
+       ],
+       [
+        5778251857,
+        1832329839,
+        0
+       ],
+       [
+        1832329839,
+        2998939273,
+        0
+       ],
+       [
+        2998939273,
+        1832330044,
+        0
+       ],
+       [
+        1832330044,
+        11081019308,
+        0
+       ],
+       [
+        11081019308,
+        1832960894,
+        0
+       ],
+       [
+        1832960894,
+        11081019321,
+        0
+       ],
+       [
+        11081019321,
+        2748699569,
+        0
+       ],
+       [
+        2748699569,
+        11081391734,
+        0
+       ],
+       [
+        11081391734,
+        11081343239,
+        0
+       ],
+       [
+        11081343239,
+        1832960921,
+        0
+       ],
+       [
+        1832960921,
+        11081343250,
+        0
+       ],
+       [
+        11081343250,
+        1832960925,
+        0
+       ],
+       [
+        1832960925,
+        11081343256,
+        0
+       ],
+       [
+        11081343256,
+        1835861046,
+        0
+       ],
+       [
+        1835861046,
+        9294920527,
+        0
+       ],
+       [
+        9294920527,
+        11079421723,
+        0
+       ],
+       [
+        11079421723,
+        9282094237,
+        0
+       ],
+       [
+        9282094237,
+        11079421722,
+        0
+       ],
+       [
+        11079421722,
+        9282094066,
+        0
+       ],
+       [
+        9282094066,
+        11081343246,
+        0
+       ],
+       [
+        11081343246,
+        9750623313,
+        0
+       ],
+       [
+        9750623313,
+        9282094075,
+        0
+       ],
+       [
+        9282094075,
+        12069982328,
+        0
+       ],
+       [
+        12069982328,
+        9282094266,
+        0
+       ],
+       [
+        9282094266,
+        11079391546,
+        0
+       ],
+       [
+        11079391546,
+        9282094045,
+        0
+       ],
+       [
+        9282094045,
+        9750617915,
+        0
+       ],
+       [
+        9750617915,
+        9282094032,
+        0
+       ]
+      ],
+      "edges": 35,
+      "effort_j_per_kg": 3490.8911,
+      "walking_time_min": 16.065,
+      "walking_time_s": 963.918
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 356,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1928008,
+       -33.884438
+      ],
+      [
+       151.19293066,
+       -33.88433324
+      ]
+     ],
+     "display_only": true,
+     "length_m": 16.71,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203728",
+    "stop_name": "Glebe Point Rd At Broadway",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731720,
+      "expected_arrival_sydney": "2026-10-23 16:02:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731720,
+      "service_date": "20261023",
+      "slack_s": -844,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732320,
+      "expected_arrival_sydney": "2026-10-23 16:12:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732320,
+      "service_date": "20261023",
+      "slack_s": -244,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732920,
+      "expected_arrival_sydney": "2026-10-23 16:22:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732920,
+      "service_date": "20261023",
+      "slack_s": 356,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733400,
+      "expected_arrival_sydney": "2026-10-23 16:30:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733400,
+      "service_date": "20261023",
+      "slack_s": 836,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734000,
+      "expected_arrival_sydney": "2026-10-23 16:40:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734000,
+      "service_date": "20261023",
+      "slack_s": 1436,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734600,
+      "expected_arrival_sydney": "2026-10-23 16:50:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734600,
+      "service_date": "20261023",
+      "slack_s": 2036,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735200,
+      "expected_arrival_sydney": "2026-10-23 17:00:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735200,
+      "service_date": "20261023",
+      "slack_s": 2636,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735800,
+      "expected_arrival_sydney": "2026-10-23 17:10:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735800,
+      "service_date": "20261023",
+      "slack_s": 3236,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736400,
+      "expected_arrival_sydney": "2026-10-23 17:20:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736400,
+      "service_date": "20261023",
+      "slack_s": 3836,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737000,
+      "expected_arrival_sydney": "2026-10-23 17:30:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737000,
+      "service_date": "20261023",
+      "slack_s": 4436,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737600,
+      "expected_arrival_sydney": "2026-10-23 17:40:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737600,
+      "service_date": "20261023",
+      "slack_s": 5036,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792738200,
+      "expected_arrival_sydney": "2026-10-23 17:50:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792738200,
+      "service_date": "20261023",
+      "slack_s": 5636,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   }
+  ],
+  "direction": {
+   "direction_id": 1,
+   "headsigns": [
+    "Pitt St And Barlow St"
+   ],
+   "route_direction": "Balmain Gladstone Park to Central Pitt St"
+  },
+  "model_statements": [
+   "Walking time is the Tobler (1993) hiking function integrated over 5 m DEM gradient cells along the time-optimal route on the trusted subgraph: a modelled minimum, not a measured pedestrian time.",
+   "Terrain effort is the Minetti et al. (2002) cost of walking integrated the same way along the effort-optimal route (J/kg). Effort, time and distance are separate objectives and are never combined into a score.",
+   "Catchability is a constraint, not an objective: one exact trip is chosen, the stops where slack = trip expected arrival - modelled pedestrian arrival is >= 0 are feasible, and only those stops are compared. Boarding time is not optimised: boarding the same trip upstream is not an earlier arrival.",
+   "Expected service times are GTFS-Realtime feed information (an absolute time, or scheduled + delay) matched on the exact trip_id; they are not a prediction made here. One snapshot says nothing about the next one.",
+   "A stop whose slack is negative is 'not proven catchable under the current model', never 'missed'.",
+   "Scheduled-only times come from the static timetable (calendar-checked) and have not been confirmed by realtime."
+  ],
+  "next_feasible_trip": {
+   "policy": "trips in chronological order of their reference time; the first with >= 1 realtime-confirmed catchable stop, else the first with >= 1 stop feasible on the static timetable only; 'next' is the trip, not an earliest boarding stop",
+   "trip_id": "2284386"
+  },
+  "no_combined_score": true,
+  "objective_winners": {
+   "fastest": "203723",
+   "gentlest": "203724",
+   "shortest": "203723"
+  },
+  "observed_at": 1792731600,
+  "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+  "origin": {
+   "attachment": {
+    "candidates_considered": 1,
+    "candidates_limit": 10,
+    "chosen_rank": 0,
+    "nearest_distance_m": 0.0,
+    "nearest_node": 5759661430,
+    "nearest_reachable": true,
+    "policy": "nearest_node",
+    "radius_m": 60.0,
+    "routing_basis": "standard_hybrid",
+    "target_node": 7747669921
+   },
+   "lat": -33.876602,
+   "lon": 151.1867514,
+   "nearest_node": 5759661430
+  },
+  "parameters": {
+   "margin_policy": "none documented; default 0",
+   "margin_s": 0.0,
+   "near_tie_pct": 2.0,
+   "schedule_fallback": true,
+   "service_date": "20261023",
+   "static_snapshot_calendar_range": [
+    "20261017",
+    "20270115"
+   ],
+   "trip_horizon": 12
+  },
+  "realtime_provenance": {
+   "clock_anchor": "api_request",
+   "entity_count": 0,
+   "error": null,
+   "feed_timestamp": null,
+   "feed_timestamp_sydney": null,
+   "fetched_at": null,
+   "is_live": false,
+   "is_synthetic": false,
+   "mode": "ANALYTICAL",
+   "never_label_as_live": true,
+   "observed_at": 1792731600,
+   "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+   "source_label": "",
+   "source_path": null,
+   "source_sha256": null,
+   "status": "none",
+   "trip_update_count": 0
+  },
+  "route": {
+   "label": "433  Balmain Gladstone Park to Central Pitt St",
+   "mode": "bus",
+   "route_id": "74-433-sj2-1",
+   "route_short_name": "433",
+   "stop_ids": [
+    "203714",
+    "203723",
+    "203724",
+    "203725",
+    "203726",
+    "203727",
+    "203728"
+   ]
+  },
+  "routing_basis": "standard_hybrid",
+  "run_mode": "ANALYTICAL",
+  "selected_stop": "203723",
+  "selected_stop_status": {
+   "rank_lines": [
+    "Overall effort rank: 6 / 35",
+    "Among timetable-feasible stops for this trip: 2 / 7"
+   ],
+   "record": {
+    "catchability": {
+     "expected_time_source": "schedule_fallback_static_timetable",
+     "inventory_reason": "",
+     "margin_s": 0.0,
+     "observed_at": 1792731600,
+     "observed_at_sydney": "2026-10-23 16:00:00 AEDT",
+     "pedestrian_arrival_epoch": 1792731990,
+     "pedestrian_arrival_sydney": "2026-10-23 16:06:30 AEDT",
+     "pedestrian_modelled_arrival_epoch": 1792731990,
+     "pedestrian_modelled_arrival_sydney": "2026-10-23 16:06:30 AEDT",
+     "realtime_confirmed": false,
+     "realtime_status": "no_realtime_analytical_mode",
+     "reason": "",
+     "services_already_past_at_observation": 65,
+     "services_matching_intent_in_snapshot": 0,
+     "slack_s": 450,
+     "status": "scheduled_service_after_modelled_arrival",
+     "stop_id": "203723",
+     "time_route_walking_time_s": 390.2717,
+     "trip_expected_arrival_epoch": 1792732440,
+     "trip_expected_arrival_sydney": "2026-10-23 16:14:00 AEDT",
+     "trip_id": "2284386"
+    },
+    "effort_rank": 6,
+    "eligibility": "compared",
+    "feasible_count": 7,
+    "feasible_rank": 2,
+    "geometry": {
+     "coordinates": [
+      151.18548982,
+      -33.87775714
+     ],
+     "type": "Point"
+    },
+    "highlights": [
+     "lowest_modelled_walking_time",
+     "shortest_walk",
+     "pareto_non_dominated"
+    ],
+    "mode": "bus",
+    "near_tie_group": null,
+    "pareto_status": "non_dominated",
+    "route_identity": {
+     "all_same": true,
+     "distance_equals_effort": true,
+     "distinct_paths": 1,
+     "groups": [
+      [
+       "distance",
+       "effort",
+       "time"
+      ]
+     ],
+     "time_equals_distance": true,
+     "time_equals_effort": true
+    },
+    "routes": {
+     "fastest": {
+      "distance_m": 404.199,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ]
+      ],
+      "edges": 13,
+      "effort_j_per_kg": 1755.6695,
+      "geometry": {
+       "coordinates": [
+        [
+         151.1867514,
+         -33.876602
+        ],
+        [
+         151.1868481,
+         -33.8767724
+        ],
+        [
+         151.1871222,
+         -33.877116
+        ],
+        [
+         151.1874239,
+         -33.877092
+        ],
+        [
+         151.1874562,
+         -33.8770878
+        ],
+        [
+         151.1874764,
+         -33.8770845
+        ],
+        [
+         151.1874942,
+         -33.87708
+        ],
+        [
+         151.1875135,
+         -33.8770724
+        ],
+        [
+         151.1875372,
+         -33.8770623
+        ],
+        [
+         151.1875846,
+         -33.8770395
+        ],
+        [
+         151.187595,
+         -33.8770506
+        ],
+        [
+         151.1876046,
+         -33.8770591
+        ],
+        [
+         151.1876158,
+         -33.877067
+        ],
+        [
+         151.1876236,
+         -33.8770714
+        ],
+        [
+         151.1876049,
+         -33.8771148
+        ],
+        [
+         151.1876436,
+         -33.8771551
+        ],
+        [
+         151.1877011,
+         -33.8772448
+        ],
+        [
+         151.1877031,
+         -33.8772479
+        ],
+        [
+         151.1875054,
+         -33.8773569
+        ],
+        [
+         151.1873075,
+         -33.8773588
+        ],
+        [
+         151.1871516,
+         -33.8773457
+        ],
+        [
+         151.1868376,
+         -33.8775199
+        ],
+        [
+         151.1864837,
+         -33.877719
+        ],
+        [
+         151.1864598,
+         -33.8776911
+        ],
+        [
+         151.1860755,
+         -33.8779096
+        ],
+        [
+         151.1857601,
+         -33.8780968
+        ],
+        [
+         151.1856891,
+         -33.8781357
+        ],
+        [
+         151.1854259,
+         -33.8778222
+        ],
+        [
+         151.1854036,
+         -33.8777938
+        ]
+       ],
+       "type": "LineString"
+      },
+      "stair_edge_count": 3,
+      "stair_edges": [
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ]
+      ],
+      "stairs": [
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1873075,
+            -33.8773588
+           ],
+           [
+            151.1871516,
+            -33.8773457
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 1.762,
+        "step_count": 5.872,
+        "u": 1839821067,
+        "v": 2072530017,
+        "vertical_change_m": 2.08
+       },
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1871516,
+            -33.8773457
+           ],
+           [
+            151.1868376,
+            -33.8775199
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 4.24,
+        "step_count": 14.132,
+        "u": 2072530017,
+        "v": 2130070867,
+        "vertical_change_m": 9.45
+       },
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1868376,
+            -33.8775199
+           ],
+           [
+            151.1864837,
+            -33.877719
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 4.799,
+        "step_count": 15.997,
+        "u": 2130070867,
+        "v": 7747325553,
+        "vertical_change_m": 6.96
+       }
+      ],
+      "walking_time_min": 6.505,
+      "walking_time_s": 390.272
+     },
+     "gentlest": {
+      "distance_m": 404.199,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ]
+      ],
+      "edges": 13,
+      "effort_j_per_kg": 1755.6695,
+      "geometry": {
+       "coordinates": [
+        [
+         151.1867514,
+         -33.876602
+        ],
+        [
+         151.1868481,
+         -33.8767724
+        ],
+        [
+         151.1871222,
+         -33.877116
+        ],
+        [
+         151.1874239,
+         -33.877092
+        ],
+        [
+         151.1874562,
+         -33.8770878
+        ],
+        [
+         151.1874764,
+         -33.8770845
+        ],
+        [
+         151.1874942,
+         -33.87708
+        ],
+        [
+         151.1875135,
+         -33.8770724
+        ],
+        [
+         151.1875372,
+         -33.8770623
+        ],
+        [
+         151.1875846,
+         -33.8770395
+        ],
+        [
+         151.187595,
+         -33.8770506
+        ],
+        [
+         151.1876046,
+         -33.8770591
+        ],
+        [
+         151.1876158,
+         -33.877067
+        ],
+        [
+         151.1876236,
+         -33.8770714
+        ],
+        [
+         151.1876049,
+         -33.8771148
+        ],
+        [
+         151.1876436,
+         -33.8771551
+        ],
+        [
+         151.1877011,
+         -33.8772448
+        ],
+        [
+         151.1877031,
+         -33.8772479
+        ],
+        [
+         151.1875054,
+         -33.8773569
+        ],
+        [
+         151.1873075,
+         -33.8773588
+        ],
+        [
+         151.1871516,
+         -33.8773457
+        ],
+        [
+         151.1868376,
+         -33.8775199
+        ],
+        [
+         151.1864837,
+         -33.877719
+        ],
+        [
+         151.1864598,
+         -33.8776911
+        ],
+        [
+         151.1860755,
+         -33.8779096
+        ],
+        [
+         151.1857601,
+         -33.8780968
+        ],
+        [
+         151.1856891,
+         -33.8781357
+        ],
+        [
+         151.1854259,
+         -33.8778222
+        ],
+        [
+         151.1854036,
+         -33.8777938
+        ]
+       ],
+       "type": "LineString"
+      },
+      "stair_edge_count": 3,
+      "stair_edges": [
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ]
+      ],
+      "stairs": [
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1873075,
+            -33.8773588
+           ],
+           [
+            151.1871516,
+            -33.8773457
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 1.762,
+        "step_count": 5.872,
+        "u": 1839821067,
+        "v": 2072530017,
+        "vertical_change_m": 2.08
+       },
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1871516,
+            -33.8773457
+           ],
+           [
+            151.1868376,
+            -33.8775199
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 4.24,
+        "step_count": 14.132,
+        "u": 2072530017,
+        "v": 2130070867,
+        "vertical_change_m": 9.45
+       },
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1868376,
+            -33.8775199
+           ],
+           [
+            151.1864837,
+            -33.877719
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 4.799,
+        "step_count": 15.997,
+        "u": 2130070867,
+        "v": 7747325553,
+        "vertical_change_m": 6.96
+       }
+      ],
+      "walking_time_min": 6.505,
+      "walking_time_s": 390.272
+     },
+     "shortest": {
+      "distance_m": 404.199,
+      "edge_keys": [
+       [
+        5759661430,
+        1832329747,
+        0
+       ],
+       [
+        1832329747,
+        5692879521,
+        0
+       ],
+       [
+        5692879521,
+        4608990273,
+        0
+       ],
+       [
+        4608990273,
+        1832329770,
+        0
+       ],
+       [
+        1832329770,
+        1839821067,
+        0
+       ],
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ],
+       [
+        7747325553,
+        2130070869,
+        0
+       ],
+       [
+        2130070869,
+        1832960852,
+        0
+       ],
+       [
+        1832960852,
+        12128998954,
+        0
+       ],
+       [
+        12128998954,
+        1832329843,
+        0
+       ],
+       [
+        1832329843,
+        7747669921,
+        0
+       ]
+      ],
+      "edges": 13,
+      "effort_j_per_kg": 1755.6695,
+      "geometry": {
+       "coordinates": [
+        [
+         151.1867514,
+         -33.876602
+        ],
+        [
+         151.1868481,
+         -33.8767724
+        ],
+        [
+         151.1871222,
+         -33.877116
+        ],
+        [
+         151.1874239,
+         -33.877092
+        ],
+        [
+         151.1874562,
+         -33.8770878
+        ],
+        [
+         151.1874764,
+         -33.8770845
+        ],
+        [
+         151.1874942,
+         -33.87708
+        ],
+        [
+         151.1875135,
+         -33.8770724
+        ],
+        [
+         151.1875372,
+         -33.8770623
+        ],
+        [
+         151.1875846,
+         -33.8770395
+        ],
+        [
+         151.187595,
+         -33.8770506
+        ],
+        [
+         151.1876046,
+         -33.8770591
+        ],
+        [
+         151.1876158,
+         -33.877067
+        ],
+        [
+         151.1876236,
+         -33.8770714
+        ],
+        [
+         151.1876049,
+         -33.8771148
+        ],
+        [
+         151.1876436,
+         -33.8771551
+        ],
+        [
+         151.1877011,
+         -33.8772448
+        ],
+        [
+         151.1877031,
+         -33.8772479
+        ],
+        [
+         151.1875054,
+         -33.8773569
+        ],
+        [
+         151.1873075,
+         -33.8773588
+        ],
+        [
+         151.1871516,
+         -33.8773457
+        ],
+        [
+         151.1868376,
+         -33.8775199
+        ],
+        [
+         151.1864837,
+         -33.877719
+        ],
+        [
+         151.1864598,
+         -33.8776911
+        ],
+        [
+         151.1860755,
+         -33.8779096
+        ],
+        [
+         151.1857601,
+         -33.8780968
+        ],
+        [
+         151.1856891,
+         -33.8781357
+        ],
+        [
+         151.1854259,
+         -33.8778222
+        ],
+        [
+         151.1854036,
+         -33.8777938
+        ]
+       ],
+       "type": "LineString"
+      },
+      "stair_edge_count": 3,
+      "stair_edges": [
+       [
+        1839821067,
+        2072530017,
+        0
+       ],
+       [
+        2072530017,
+        2130070867,
+        0
+       ],
+       [
+        2130070867,
+        7747325553,
+        0
+       ]
+      ],
+      "stairs": [
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1873075,
+            -33.8773588
+           ],
+           [
+            151.1871516,
+            -33.8773457
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 1.762,
+        "step_count": 5.872,
+        "u": 1839821067,
+        "v": 2072530017,
+        "vertical_change_m": 2.08
+       },
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1871516,
+            -33.8773457
+           ],
+           [
+            151.1868376,
+            -33.8775199
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 4.24,
+        "step_count": 14.132,
+        "u": 2072530017,
+        "v": 2130070867,
+        "vertical_change_m": 9.45
+       },
+       {
+        "confidence_class": "P",
+        "direction": "up",
+        "elevation_source": "stair model cache (directed edge)",
+        "geometry": {
+         "coordinates": [
+          [
+           [
+            151.1868376,
+            -33.8775199
+           ],
+           [
+            151.1864837,
+            -33.877719
+           ]
+          ]
+         ],
+         "type": "MultiLineString"
+        },
+        "key": 0,
+        "name": "Palmerston Avenue Steps",
+        "stair_length_m": 4.799,
+        "step_count": 15.997,
+        "u": 2130070867,
+        "v": 7747325553,
+        "vertical_change_m": 6.96
+       }
+      ],
+      "walking_time_min": 6.505,
+      "walking_time_s": 390.272
+     }
+    },
+    "serves_selected_service": true,
+    "slack_s": 450,
+    "status_reason": "",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1854036,
+       -33.8777938
+      ],
+      [
+       151.18548982,
+       -33.87775714
+      ]
+     ],
+     "display_only": true,
+     "length_m": 8.95,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203723",
+    "stop_name": "Glebe Point Rd Opp Glebe Library",
+    "trips_at_stop": [
+     {
+      "already_past_at_observation": true,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731240,
+      "expected_arrival_sydney": "2026-10-23 15:54:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731240,
+      "service_date": "20261023",
+      "slack_s": -750,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288638"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792731840,
+      "expected_arrival_sydney": "2026-10-23 16:04:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792731840,
+      "service_date": "20261023",
+      "slack_s": -150,
+      "status": "not_proven_catchable_under_current_model",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286069"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732440,
+      "expected_arrival_sydney": "2026-10-23 16:14:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732440,
+      "service_date": "20261023",
+      "slack_s": 450,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284386"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792732920,
+      "expected_arrival_sydney": "2026-10-23 16:22:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792732920,
+      "service_date": "20261023",
+      "slack_s": 930,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285347"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792733520,
+      "expected_arrival_sydney": "2026-10-23 16:32:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792733520,
+      "service_date": "20261023",
+      "slack_s": 1530,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2284274"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734120,
+      "expected_arrival_sydney": "2026-10-23 16:42:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734120,
+      "service_date": "20261023",
+      "slack_s": 2130,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2285592"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792734720,
+      "expected_arrival_sydney": "2026-10-23 16:52:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792734720,
+      "service_date": "20261023",
+      "slack_s": 2730,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288940"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735320,
+      "expected_arrival_sydney": "2026-10-23 17:02:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735320,
+      "service_date": "20261023",
+      "slack_s": 3330,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289302"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792735920,
+      "expected_arrival_sydney": "2026-10-23 17:12:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792735920,
+      "service_date": "20261023",
+      "slack_s": 3930,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2289630"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792736520,
+      "expected_arrival_sydney": "2026-10-23 17:22:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792736520,
+      "service_date": "20261023",
+      "slack_s": 4530,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2290209"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737120,
+      "expected_arrival_sydney": "2026-10-23 17:32:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737120,
+      "service_date": "20261023",
+      "slack_s": 5130,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2286219"
+     },
+     {
+      "already_past_at_observation": false,
+      "delay_s": null,
+      "direction_id": "1",
+      "expected_arrival_epoch": 1792737720,
+      "expected_arrival_sydney": "2026-10-23 17:42:00 AEDT",
+      "expected_time_source": "schedule_fallback_static_timetable",
+      "realtime_confirmed": false,
+      "route_short_name": "433",
+      "schedule_relationship": null,
+      "scheduled_epoch": 1792737720,
+      "service_date": "20261023",
+      "slack_s": 5730,
+      "status": "scheduled_service_after_modelled_arrival",
+      "trip_headsign": "Pitt St And Barlow St",
+      "trip_id": "2288498"
+     }
+    ]
+   }
+  },
+  "selected_trip": {
+   "catchable_stop_ids": [],
+   "direction_id": "1",
+   "expected_time_source": "schedule_only",
+   "feasible_stop_ids": [
+    "203714",
+    "203723",
+    "203724",
+    "203725",
+    "203726",
+    "203727",
+    "203728"
+   ],
+   "is_next_feasible": true,
+   "n_feasible_stops": 7,
+   "not_proven_stop_ids": [],
+   "reference_definition": "earliest expected arrival at or after observed_at at any candidate stop the service calls at (its first upcoming call in the study area); trips with no upcoming call are excluded",
+   "reference_epoch": 1792732380,
+   "reference_stop_id": "203714",
+   "reference_sydney": "2026-10-23 16:13:00 AEDT",
+   "route_direction": "Balmain Gladstone Park to Central Pitt St",
+   "route_short_name": "433",
+   "schedule_only_stop_ids": [
+    "203714",
+    "203723",
+    "203724",
+    "203725",
+    "203726",
+    "203727",
+    "203728"
+   ],
+   "selection": "automatic_next_feasible",
+   "trip_headsign": "Pitt St And Barlow St",
+   "trip_id": "2284386"
+  },
+  "summary": {
+   "candidates_serving_selected_service": 7,
+   "candidates_total": 37,
+   "compared": 7,
+   "comparison_basis": "feasible_stops_of_selected_trip",
+   "feasibility_note": "This exact trip (433 -> Pitt St And Barlow St, reference 2026-10-23 16:13:00 AEDT) is feasible via 203714, 203723, 203724, 203725, 203726, 203727, 203728; the stops are compared on walking effort, walking time and distance only.",
+   "feasible_stops": [
+    "203714",
+    "203723",
+    "203724",
+    "203725",
+    "203726",
+    "203727",
+    "203728"
+   ],
+   "lowest_modelled_walking_time_stop": "203723",
+   "lowest_terrain_effort_stop": "203724",
+   "near_tie_note": null,
+   "next_feasible_trip_id": "2284386",
+   "pareto_objectives": [
+    "effort_j_per_kg (effort-optimal route)",
+    "time_route_walking_time_s (time-optimal route)"
+   ],
+   "pareto_shortlist": [
+    "203723",
+    "203724"
+   ],
+   "selected_trip_id": "2284386",
+   "shortest_walk_stop": "203723",
+   "stops_not_proven": [],
+   "stops_realtime_catchable": [],
+   "stops_scheduled_only": [
+    "203714",
+    "203723",
+    "203724",
+    "203725",
+    "203726",
+    "203727",
+    "203728"
+   ],
+   "trip_selection": "automatic_next_feasible",
+   "trips_listed": 12
+  },
+  "trip_selection_mode": "automatic",
+  "upcoming_trips": [
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "not_proven_feasible",
+    "feasible_stop_ids": [],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 0,
+    "n_not_proven_stops": 7,
+    "n_schedule_only_stops": 0,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 2,
+    "not_proven_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "reference_epoch": 1792731600,
+    "reference_stop_id": "203727",
+    "reference_sydney": "2026-10-23 16:00:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2288638"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "not_proven_feasible",
+    "feasible_stop_ids": [],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 0,
+    "n_not_proven_stops": 7,
+    "n_schedule_only_stops": 0,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "reference_epoch": 1792731780,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 16:03:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2286069"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": true,
+    "is_selected": true,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792732380,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 16:13:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2284386"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792732860,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 16:21:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2285347"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792733460,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 16:31:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2284274"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792734060,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 16:41:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2285592"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792734660,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 16:51:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2288940"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792735260,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 17:01:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2289302"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792735860,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 17:11:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2289630"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792736460,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 17:21:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2290209"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792737060,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 17:31:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2286219"
+   },
+   {
+    "basis": "schedule_only",
+    "catchable_stop_ids": [],
+    "direction_id": "1",
+    "feasibility": "feasible",
+    "feasible_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "is_next_feasible": false,
+    "is_selected": false,
+    "n_catchable_stops": 0,
+    "n_feasible_stops": 7,
+    "n_not_proven_stops": 0,
+    "n_schedule_only_stops": 7,
+    "n_stops_with_times": 7,
+    "n_upcoming_calls": 7,
+    "not_proven_stop_ids": [],
+    "reference_epoch": 1792737660,
+    "reference_stop_id": "203714",
+    "reference_sydney": "2026-10-23 17:41:00 AEDT",
+    "route_short_name": "433",
+    "schedule_only_stop_ids": [
+     "203714",
+     "203723",
+     "203724",
+     "203725",
+     "203726",
+     "203727",
+     "203728"
+    ],
+    "trip_headsign": "Pitt St And Barlow St",
+    "trip_id": "2288498"
+   }
+  ],
+  "walking_profile": "standard",
+  "winner_blocks": [
+   {
+    "distance_m": 534.721,
+    "edge_keys": [
+     [
+      5759661430,
+      1832329747,
+      0
+     ],
+     [
+      1832329747,
+      5692879521,
+      0
+     ],
+     [
+      5692879521,
+      4608990273,
+      0
+     ],
+     [
+      4608990273,
+      1832329770,
+      0
+     ],
+     [
+      1832329770,
+      1832329799,
+      0
+     ],
+     [
+      1832329799,
+      1832329815,
+      0
+     ],
+     [
+      1832329815,
+      5778251857,
+      0
+     ],
+     [
+      5778251857,
+      1832329839,
+      0
+     ],
+     [
+      1832329839,
+      2545267121,
+      0
+     ],
+     [
+      2545267121,
+      1832960868,
+      0
+     ],
+     [
+      1832960868,
+      1832960871,
+      0
+     ],
+     [
+      1832960871,
+      1832960875,
+      0
+     ],
+     [
+      1832960875,
+      1832960885,
+      0
+     ],
+     [
+      1832960885,
+      9294920531,
+      0
+     ],
+     [
+      9294920531,
+      9282094558,
+      0
+     ],
+     [
+      9282094558,
+      11081007788,
+      0
+     ]
+    ],
+    "effort_j_per_kg": 1724.4706,
+    "geometry": {
+     "coordinates": [
+      [
+       151.1867514,
+       -33.876602
+      ],
+      [
+       151.1868481,
+       -33.8767724
+      ],
+      [
+       151.1871222,
+       -33.877116
+      ],
+      [
+       151.1874239,
+       -33.877092
+      ],
+      [
+       151.1874562,
+       -33.8770878
+      ],
+      [
+       151.1874764,
+       -33.8770845
+      ],
+      [
+       151.1874942,
+       -33.87708
+      ],
+      [
+       151.1875135,
+       -33.8770724
+      ],
+      [
+       151.1875372,
+       -33.8770623
+      ],
+      [
+       151.1875846,
+       -33.8770395
+      ],
+      [
+       151.187595,
+       -33.8770506
+      ],
+      [
+       151.1876046,
+       -33.8770591
+      ],
+      [
+       151.1876158,
+       -33.877067
+      ],
+      [
+       151.1876236,
+       -33.8770714
+      ],
+      [
+       151.1876049,
+       -33.8771148
+      ],
+      [
+       151.1876436,
+       -33.8771551
+      ],
+      [
+       151.1877011,
+       -33.8772448
+      ],
+      [
+       151.1877031,
+       -33.8772479
+      ],
+      [
+       151.1877679,
+       -33.8773381
+      ],
+      [
+       151.1879327,
+       -33.877539
+      ],
+      [
+       151.1879561,
+       -33.8775253
+      ],
+      [
+       151.1879934,
+       -33.8775034
+      ],
+      [
+       151.1881773,
+       -33.8777424
+      ],
+      [
+       151.1883992,
+       -33.8780218
+      ],
+      [
+       151.1884496,
+       -33.8780852
+      ],
+      [
+       151.1884601,
+       -33.8781289
+      ],
+      [
+       151.1886061,
+       -33.8783257
+      ],
+      [
+       151.1886208,
+       -33.8783486
+      ],
+      [
+       151.1886337,
+       -33.8783753
+      ],
+      [
+       151.1886427,
+       -33.8784022
+      ],
+      [
+       151.18865,
+       -33.8784297
+      ],
+      [
+       151.1886544,
+       -33.8784618
+      ],
+      [
+       151.1886583,
+       -33.8785199
+      ],
+      [
+       151.1886591,
+       -33.8786024
+      ],
+      [
+       151.1886551,
+       -33.8786459
+      ],
+      [
+       151.1886498,
+       -33.8786837
+      ],
+      [
+       151.1886397,
+       -33.8787253
+      ],
+      [
+       151.1886308,
+       -33.878753
+      ],
+      [
+       151.1886215,
+       -33.8787766
+      ],
+      [
+       151.1886073,
+       -33.8788061
+      ],
+      [
+       151.1885906,
+       -33.8788312
+      ],
+      [
+       151.1885735,
+       -33.8788524
+      ],
+      [
+       151.1885552,
+       -33.8788717
+      ],
+      [
+       151.1885347,
+       -33.8788895
+      ],
+      [
+       151.1885111,
+       -33.8789076
+      ],
+      [
+       151.1884698,
+       -33.8789346
+      ],
+      [
+       151.1883567,
+       -33.8790038
+      ],
+      [
+       151.1882771,
+       -33.8790785
+      ],
+      [
+       151.1879755,
+       -33.8792462
+      ],
+      [
+       151.18771,
+       -33.8793958
+      ],
+      [
+       151.1876635,
+       -33.879422
+      ],
+      [
+       151.1873579,
+       -33.8795926
+      ],
+      [
+       151.1873243,
+       -33.8795497
+      ],
+      [
+       151.1871022,
+       -33.8796756
+      ],
+      [
+       151.1870463,
+       -33.8797086
+      ],
+      [
+       151.1870228,
+       -33.8797161
+      ],
+      [
+       151.187003,
+       -33.8797078
+      ],
+      [
+       151.1869964,
+       -33.8797002
+      ]
+     ],
+     "type": "LineString"
+    },
+    "highlights": [
+     "lowest_terrain_effort",
+     "pareto_non_dominated"
+    ],
+    "objectives": [
+     "gentlest"
+    ],
+    "same_stop_other_path": false,
+    "slack_s": 505,
+    "stair_edge_count": 0,
+    "stair_edges": [],
+    "stairs": [],
+    "status": "scheduled_service_after_modelled_arrival",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1869964,
+       -33.8797002
+      ],
+      [
+       151.18685081,
+       -33.87952182
+      ]
+     ],
+     "display_only": true,
+     "length_m": 23.93,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203724",
+    "stop_name": "Glebe Point Rd At Bridge Rd",
+    "walking_time_s": 455.324
+   },
+   {
+    "distance_m": 404.199,
+    "edge_keys": [
+     [
+      5759661430,
+      1832329747,
+      0
+     ],
+     [
+      1832329747,
+      5692879521,
+      0
+     ],
+     [
+      5692879521,
+      4608990273,
+      0
+     ],
+     [
+      4608990273,
+      1832329770,
+      0
+     ],
+     [
+      1832329770,
+      1839821067,
+      0
+     ],
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ],
+     [
+      7747325553,
+      2130070869,
+      0
+     ],
+     [
+      2130070869,
+      1832960852,
+      0
+     ],
+     [
+      1832960852,
+      12128998954,
+      0
+     ],
+     [
+      12128998954,
+      1832329843,
+      0
+     ],
+     [
+      1832329843,
+      7747669921,
+      0
+     ]
+    ],
+    "effort_j_per_kg": 1755.6695,
+    "geometry": {
+     "coordinates": [
+      [
+       151.1867514,
+       -33.876602
+      ],
+      [
+       151.1868481,
+       -33.8767724
+      ],
+      [
+       151.1871222,
+       -33.877116
+      ],
+      [
+       151.1874239,
+       -33.877092
+      ],
+      [
+       151.1874562,
+       -33.8770878
+      ],
+      [
+       151.1874764,
+       -33.8770845
+      ],
+      [
+       151.1874942,
+       -33.87708
+      ],
+      [
+       151.1875135,
+       -33.8770724
+      ],
+      [
+       151.1875372,
+       -33.8770623
+      ],
+      [
+       151.1875846,
+       -33.8770395
+      ],
+      [
+       151.187595,
+       -33.8770506
+      ],
+      [
+       151.1876046,
+       -33.8770591
+      ],
+      [
+       151.1876158,
+       -33.877067
+      ],
+      [
+       151.1876236,
+       -33.8770714
+      ],
+      [
+       151.1876049,
+       -33.8771148
+      ],
+      [
+       151.1876436,
+       -33.8771551
+      ],
+      [
+       151.1877011,
+       -33.8772448
+      ],
+      [
+       151.1877031,
+       -33.8772479
+      ],
+      [
+       151.1875054,
+       -33.8773569
+      ],
+      [
+       151.1873075,
+       -33.8773588
+      ],
+      [
+       151.1871516,
+       -33.8773457
+      ],
+      [
+       151.1868376,
+       -33.8775199
+      ],
+      [
+       151.1864837,
+       -33.877719
+      ],
+      [
+       151.1864598,
+       -33.8776911
+      ],
+      [
+       151.1860755,
+       -33.8779096
+      ],
+      [
+       151.1857601,
+       -33.8780968
+      ],
+      [
+       151.1856891,
+       -33.8781357
+      ],
+      [
+       151.1854259,
+       -33.8778222
+      ],
+      [
+       151.1854036,
+       -33.8777938
+      ]
+     ],
+     "type": "LineString"
+    },
+    "highlights": [
+     "lowest_modelled_walking_time",
+     "shortest_walk",
+     "pareto_non_dominated"
+    ],
+    "objectives": [
+     "fastest",
+     "shortest"
+    ],
+    "same_stop_other_path": false,
+    "slack_s": 450,
+    "stair_edge_count": 3,
+    "stair_edges": [
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ]
+    ],
+    "stairs": [
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1873075,
+          -33.8773588
+         ],
+         [
+          151.1871516,
+          -33.8773457
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 1.762,
+      "step_count": 5.872,
+      "u": 1839821067,
+      "v": 2072530017,
+      "vertical_change_m": 2.08
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1871516,
+          -33.8773457
+         ],
+         [
+          151.1868376,
+          -33.8775199
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.24,
+      "step_count": 14.132,
+      "u": 2072530017,
+      "v": 2130070867,
+      "vertical_change_m": 9.45
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1868376,
+          -33.8775199
+         ],
+         [
+          151.1864837,
+          -33.877719
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.799,
+      "step_count": 15.997,
+      "u": 2130070867,
+      "v": 7747325553,
+      "vertical_change_m": 6.96
+     }
+    ],
+    "status": "scheduled_service_after_modelled_arrival",
+    "stop_access": {
+     "coordinates": [
+      [
+       151.1854036,
+       -33.8777938
+      ],
+      [
+       151.18548982,
+       -33.87775714
+      ]
+     ],
+     "display_only": true,
+     "length_m": 8.95,
+     "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+     "type": "LineString"
+    },
+    "stop_id": "203723",
+    "stop_name": "Glebe Point Rd Opp Glebe Library",
+    "walking_time_s": 390.272
+   }
+  ]
+ }
+}

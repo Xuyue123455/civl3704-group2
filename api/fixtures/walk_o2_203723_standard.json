@@ -1,0 +1,1265 @@
+{
+ "recorded": {
+  "desktop_gold": "901232d39fa0f87eb479b4fcf7d0c3d74f2fb870",
+  "environment": {
+   "matplotlib": "3.11.2",
+   "python": "3.13.16"
+  },
+  "generated_at_utc": "2026-10-24T05:35:06Z",
+  "generator": "api.adapters.walk_adapter.walk",
+  "inputs": {
+   "origin": {
+    "lat": -33.876602,
+    "lon": 151.1867514
+   },
+   "profile": "standard",
+   "stop_id": "203723"
+  },
+  "note": "golden fixture recorded from the validated engines; a deterministic stand-in, not live output"
+ },
+ "response": {
+  "available": true,
+  "comparisons": {
+   "effort_saving_vs_shortest_pct": 0.0,
+   "extra_distance_vs_shortest_pct": 0.0,
+   "time_saving_vs_shortest_s": 0.0
+  },
+  "mapped_stairs": [
+   {
+    "access": "yes",
+    "bridge": null,
+    "clipped_to_edge": false,
+    "conveying": null,
+    "edge_length_m": 14.466,
+    "geometry": {
+     "coordinates": [
+      [
+       [
+        151.1873075,
+        -33.8773588
+       ],
+       [
+        151.1871516,
+        -33.8773457
+       ]
+      ]
+     ],
+     "type": "MultiLineString"
+    },
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "key": 0,
+    "marker": {
+     "coordinates": [
+      151.1872295,
+      -33.8773523
+     ],
+     "type": "Point"
+    },
+    "marker_lat": -33.8773523,
+    "marker_lon": 151.1872295,
+    "metadata_source": "graphml_edge_attributes",
+    "name": "Palmerston Avenue Steps",
+    "osmid": [
+     196956749
+    ],
+    "overhang_removed_m": 0,
+    "pure_steps_edge": true,
+    "ramp": "no",
+    "ramp_wheelchair": null,
+    "raw_step_way_ids": [
+     196956749
+    ],
+    "raw_way_length_m": 14.496,
+    "stair_length_m": 14.496,
+    "stair_localisation": "whole_edge",
+    "stair_parts_lonlat": [
+     [
+      [
+       151.1873075,
+       -33.8773588
+      ],
+      [
+       151.1871516,
+       -33.8773457
+      ]
+     ]
+    ],
+    "stair_way_against_edge": false,
+    "step_count": "36",
+    "tunnel": null,
+    "u": 1839821067,
+    "v": 2072530017
+   },
+   {
+    "access": "yes",
+    "bridge": null,
+    "clipped_to_edge": false,
+    "conveying": null,
+    "edge_length_m": 34.864,
+    "geometry": {
+     "coordinates": [
+      [
+       [
+        151.1871516,
+        -33.8773457
+       ],
+       [
+        151.1868376,
+        -33.8775199
+       ]
+      ]
+     ],
+     "type": "MultiLineString"
+    },
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "key": 0,
+    "marker": {
+     "coordinates": [
+      151.1869946,
+      -33.8774328
+     ],
+     "type": "Point"
+    },
+    "marker_lat": -33.8774328,
+    "marker_lon": 151.1869946,
+    "metadata_source": "graphml_edge_attributes",
+    "name": "Palmerston Avenue Steps",
+    "osmid": [
+     196956749
+    ],
+    "overhang_removed_m": 0,
+    "pure_steps_edge": true,
+    "ramp": "no",
+    "ramp_wheelchair": null,
+    "raw_step_way_ids": [
+     196956749
+    ],
+    "raw_way_length_m": 34.888,
+    "stair_length_m": 34.888,
+    "stair_localisation": "whole_edge",
+    "stair_parts_lonlat": [
+     [
+      [
+       151.1871516,
+       -33.8773457
+      ],
+      [
+       151.1868376,
+       -33.8775199
+      ]
+     ]
+    ],
+    "stair_way_against_edge": false,
+    "step_count": "36",
+    "tunnel": null,
+    "u": 2072530017,
+    "v": 2130070867
+   },
+   {
+    "access": "yes",
+    "bridge": null,
+    "clipped_to_edge": false,
+    "conveying": null,
+    "edge_length_m": 39.466,
+    "geometry": {
+     "coordinates": [
+      [
+       [
+        151.1868376,
+        -33.8775199
+       ],
+       [
+        151.1864837,
+        -33.877719
+       ]
+      ]
+     ],
+     "type": "MultiLineString"
+    },
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "key": 0,
+    "marker": {
+     "coordinates": [
+      151.1866606,
+      -33.8776194
+     ],
+     "type": "Point"
+    },
+    "marker_lat": -33.8776194,
+    "marker_lon": 151.1866606,
+    "metadata_source": "graphml_edge_attributes",
+    "name": "Palmerston Avenue Steps",
+    "osmid": [
+     196956749
+    ],
+    "overhang_removed_m": 0,
+    "pure_steps_edge": true,
+    "ramp": "no",
+    "ramp_wheelchair": null,
+    "raw_step_way_ids": [
+     196956749
+    ],
+    "raw_way_length_m": 39.491,
+    "stair_length_m": 39.491,
+    "stair_localisation": "whole_edge",
+    "stair_parts_lonlat": [
+     [
+      [
+       151.1868376,
+       -33.8775199
+      ],
+      [
+       151.1864837,
+       -33.877719
+      ]
+     ]
+    ],
+    "stair_way_against_edge": false,
+    "step_count": "36",
+    "tunnel": null,
+    "u": 2130070867,
+    "v": 7747325553
+   }
+  ],
+  "model_provenance": {
+   "effort": "Minetti metabolic cost per kg (J/kg) on the validated terrain model.",
+   "graph": {
+    "eligible_classes": [
+     "A",
+     "P",
+     "B"
+    ],
+    "excluded_class_edges": {
+     "C": 110
+    },
+    "stair_edges_added": 214,
+    "stair_model_version": "stair_model_v1_phaseA",
+    "standard_edges": 6508,
+    "trusted_edges": 6294
+   },
+   "standard": "Standard: eligible mapped stair segments (classes A / P / B) may be used; class C excluded.",
+   "step_free": "Step-free: mapped stair segments excluded. Step-free does not mean wheelchair accessible.",
+   "triplet": "One route -> one internally consistent distance + time + effort triplet (never mixed across routes).",
+   "walking_time": "Tobler hiking function on the validated terrain model: modelled, not measured."
+  },
+  "no_route": null,
+  "origin": {
+   "attachment": {
+    "candidates_considered": 1,
+    "candidates_limit": 10,
+    "chosen_rank": 0,
+    "nearest_distance_m": 0.0,
+    "nearest_node": 5759661430,
+    "nearest_reachable": true,
+    "policy": "nearest_node",
+    "radius_m": 60.0,
+    "routing_basis": "standard_hybrid",
+    "target_node": 7747669921
+   },
+   "geometry": {
+    "coordinates": [
+     151.1867514,
+     -33.876602
+    ],
+    "type": "Point"
+   },
+   "lat": -33.876602,
+   "lon": 151.1867514,
+   "nearest_node": 5759661430,
+   "node_lat": -33.876602,
+   "node_lon": 151.1867514,
+   "snap_distance_m": 0.0
+  },
+  "profile": "standard",
+  "reason": "",
+  "route_identity": {
+   "all_same": true,
+   "distance_equals_effort": true,
+   "distinct_paths": 1,
+   "groups": [
+    [
+     "distance",
+     "effort",
+     "time"
+    ]
+   ],
+   "time_equals_distance": true,
+   "time_equals_effort": true
+  },
+  "routes": {
+   "fastest": {
+    "distance_m": 404.199,
+    "edge_keys": [
+     [
+      5759661430,
+      1832329747,
+      0
+     ],
+     [
+      1832329747,
+      5692879521,
+      0
+     ],
+     [
+      5692879521,
+      4608990273,
+      0
+     ],
+     [
+      4608990273,
+      1832329770,
+      0
+     ],
+     [
+      1832329770,
+      1839821067,
+      0
+     ],
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ],
+     [
+      7747325553,
+      2130070869,
+      0
+     ],
+     [
+      2130070869,
+      1832960852,
+      0
+     ],
+     [
+      1832960852,
+      12128998954,
+      0
+     ],
+     [
+      12128998954,
+      1832329843,
+      0
+     ],
+     [
+      1832329843,
+      7747669921,
+      0
+     ]
+    ],
+    "edges": 13,
+    "effort_j_per_kg": 1755.6695,
+    "geometry": {
+     "coordinates": [
+      [
+       151.1867514,
+       -33.876602
+      ],
+      [
+       151.1868481,
+       -33.8767724
+      ],
+      [
+       151.1871222,
+       -33.877116
+      ],
+      [
+       151.1874239,
+       -33.877092
+      ],
+      [
+       151.1874562,
+       -33.8770878
+      ],
+      [
+       151.1874764,
+       -33.8770845
+      ],
+      [
+       151.1874942,
+       -33.87708
+      ],
+      [
+       151.1875135,
+       -33.8770724
+      ],
+      [
+       151.1875372,
+       -33.8770623
+      ],
+      [
+       151.1875846,
+       -33.8770395
+      ],
+      [
+       151.187595,
+       -33.8770506
+      ],
+      [
+       151.1876046,
+       -33.8770591
+      ],
+      [
+       151.1876158,
+       -33.877067
+      ],
+      [
+       151.1876236,
+       -33.8770714
+      ],
+      [
+       151.1876049,
+       -33.8771148
+      ],
+      [
+       151.1876436,
+       -33.8771551
+      ],
+      [
+       151.1877011,
+       -33.8772448
+      ],
+      [
+       151.1877031,
+       -33.8772479
+      ],
+      [
+       151.1875054,
+       -33.8773569
+      ],
+      [
+       151.1873075,
+       -33.8773588
+      ],
+      [
+       151.1871516,
+       -33.8773457
+      ],
+      [
+       151.1868376,
+       -33.8775199
+      ],
+      [
+       151.1864837,
+       -33.877719
+      ],
+      [
+       151.1864598,
+       -33.8776911
+      ],
+      [
+       151.1860755,
+       -33.8779096
+      ],
+      [
+       151.1857601,
+       -33.8780968
+      ],
+      [
+       151.1856891,
+       -33.8781357
+      ],
+      [
+       151.1854259,
+       -33.8778222
+      ],
+      [
+       151.1854036,
+       -33.8777938
+      ]
+     ],
+     "type": "LineString"
+    },
+    "stair_edge_count": 3,
+    "stair_edges": [
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ]
+    ],
+    "stairs": [
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1873075,
+          -33.8773588
+         ],
+         [
+          151.1871516,
+          -33.8773457
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 1.762,
+      "step_count": 5.872,
+      "u": 1839821067,
+      "v": 2072530017,
+      "vertical_change_m": 2.08
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1871516,
+          -33.8773457
+         ],
+         [
+          151.1868376,
+          -33.8775199
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.24,
+      "step_count": 14.132,
+      "u": 2072530017,
+      "v": 2130070867,
+      "vertical_change_m": 9.45
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1868376,
+          -33.8775199
+         ],
+         [
+          151.1864837,
+          -33.877719
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.799,
+      "step_count": 15.997,
+      "u": 2130070867,
+      "v": 7747325553,
+      "vertical_change_m": 6.96
+     }
+    ],
+    "walking_time_min": 6.505,
+    "walking_time_s": 390.272
+   },
+   "gentlest": {
+    "distance_m": 404.199,
+    "edge_keys": [
+     [
+      5759661430,
+      1832329747,
+      0
+     ],
+     [
+      1832329747,
+      5692879521,
+      0
+     ],
+     [
+      5692879521,
+      4608990273,
+      0
+     ],
+     [
+      4608990273,
+      1832329770,
+      0
+     ],
+     [
+      1832329770,
+      1839821067,
+      0
+     ],
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ],
+     [
+      7747325553,
+      2130070869,
+      0
+     ],
+     [
+      2130070869,
+      1832960852,
+      0
+     ],
+     [
+      1832960852,
+      12128998954,
+      0
+     ],
+     [
+      12128998954,
+      1832329843,
+      0
+     ],
+     [
+      1832329843,
+      7747669921,
+      0
+     ]
+    ],
+    "edges": 13,
+    "effort_j_per_kg": 1755.6695,
+    "geometry": {
+     "coordinates": [
+      [
+       151.1867514,
+       -33.876602
+      ],
+      [
+       151.1868481,
+       -33.8767724
+      ],
+      [
+       151.1871222,
+       -33.877116
+      ],
+      [
+       151.1874239,
+       -33.877092
+      ],
+      [
+       151.1874562,
+       -33.8770878
+      ],
+      [
+       151.1874764,
+       -33.8770845
+      ],
+      [
+       151.1874942,
+       -33.87708
+      ],
+      [
+       151.1875135,
+       -33.8770724
+      ],
+      [
+       151.1875372,
+       -33.8770623
+      ],
+      [
+       151.1875846,
+       -33.8770395
+      ],
+      [
+       151.187595,
+       -33.8770506
+      ],
+      [
+       151.1876046,
+       -33.8770591
+      ],
+      [
+       151.1876158,
+       -33.877067
+      ],
+      [
+       151.1876236,
+       -33.8770714
+      ],
+      [
+       151.1876049,
+       -33.8771148
+      ],
+      [
+       151.1876436,
+       -33.8771551
+      ],
+      [
+       151.1877011,
+       -33.8772448
+      ],
+      [
+       151.1877031,
+       -33.8772479
+      ],
+      [
+       151.1875054,
+       -33.8773569
+      ],
+      [
+       151.1873075,
+       -33.8773588
+      ],
+      [
+       151.1871516,
+       -33.8773457
+      ],
+      [
+       151.1868376,
+       -33.8775199
+      ],
+      [
+       151.1864837,
+       -33.877719
+      ],
+      [
+       151.1864598,
+       -33.8776911
+      ],
+      [
+       151.1860755,
+       -33.8779096
+      ],
+      [
+       151.1857601,
+       -33.8780968
+      ],
+      [
+       151.1856891,
+       -33.8781357
+      ],
+      [
+       151.1854259,
+       -33.8778222
+      ],
+      [
+       151.1854036,
+       -33.8777938
+      ]
+     ],
+     "type": "LineString"
+    },
+    "stair_edge_count": 3,
+    "stair_edges": [
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ]
+    ],
+    "stairs": [
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1873075,
+          -33.8773588
+         ],
+         [
+          151.1871516,
+          -33.8773457
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 1.762,
+      "step_count": 5.872,
+      "u": 1839821067,
+      "v": 2072530017,
+      "vertical_change_m": 2.08
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1871516,
+          -33.8773457
+         ],
+         [
+          151.1868376,
+          -33.8775199
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.24,
+      "step_count": 14.132,
+      "u": 2072530017,
+      "v": 2130070867,
+      "vertical_change_m": 9.45
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1868376,
+          -33.8775199
+         ],
+         [
+          151.1864837,
+          -33.877719
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.799,
+      "step_count": 15.997,
+      "u": 2130070867,
+      "v": 7747325553,
+      "vertical_change_m": 6.96
+     }
+    ],
+    "walking_time_min": 6.505,
+    "walking_time_s": 390.272
+   },
+   "shortest": {
+    "distance_m": 404.199,
+    "edge_keys": [
+     [
+      5759661430,
+      1832329747,
+      0
+     ],
+     [
+      1832329747,
+      5692879521,
+      0
+     ],
+     [
+      5692879521,
+      4608990273,
+      0
+     ],
+     [
+      4608990273,
+      1832329770,
+      0
+     ],
+     [
+      1832329770,
+      1839821067,
+      0
+     ],
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ],
+     [
+      7747325553,
+      2130070869,
+      0
+     ],
+     [
+      2130070869,
+      1832960852,
+      0
+     ],
+     [
+      1832960852,
+      12128998954,
+      0
+     ],
+     [
+      12128998954,
+      1832329843,
+      0
+     ],
+     [
+      1832329843,
+      7747669921,
+      0
+     ]
+    ],
+    "edges": 13,
+    "effort_j_per_kg": 1755.6695,
+    "geometry": {
+     "coordinates": [
+      [
+       151.1867514,
+       -33.876602
+      ],
+      [
+       151.1868481,
+       -33.8767724
+      ],
+      [
+       151.1871222,
+       -33.877116
+      ],
+      [
+       151.1874239,
+       -33.877092
+      ],
+      [
+       151.1874562,
+       -33.8770878
+      ],
+      [
+       151.1874764,
+       -33.8770845
+      ],
+      [
+       151.1874942,
+       -33.87708
+      ],
+      [
+       151.1875135,
+       -33.8770724
+      ],
+      [
+       151.1875372,
+       -33.8770623
+      ],
+      [
+       151.1875846,
+       -33.8770395
+      ],
+      [
+       151.187595,
+       -33.8770506
+      ],
+      [
+       151.1876046,
+       -33.8770591
+      ],
+      [
+       151.1876158,
+       -33.877067
+      ],
+      [
+       151.1876236,
+       -33.8770714
+      ],
+      [
+       151.1876049,
+       -33.8771148
+      ],
+      [
+       151.1876436,
+       -33.8771551
+      ],
+      [
+       151.1877011,
+       -33.8772448
+      ],
+      [
+       151.1877031,
+       -33.8772479
+      ],
+      [
+       151.1875054,
+       -33.8773569
+      ],
+      [
+       151.1873075,
+       -33.8773588
+      ],
+      [
+       151.1871516,
+       -33.8773457
+      ],
+      [
+       151.1868376,
+       -33.8775199
+      ],
+      [
+       151.1864837,
+       -33.877719
+      ],
+      [
+       151.1864598,
+       -33.8776911
+      ],
+      [
+       151.1860755,
+       -33.8779096
+      ],
+      [
+       151.1857601,
+       -33.8780968
+      ],
+      [
+       151.1856891,
+       -33.8781357
+      ],
+      [
+       151.1854259,
+       -33.8778222
+      ],
+      [
+       151.1854036,
+       -33.8777938
+      ]
+     ],
+     "type": "LineString"
+    },
+    "stair_edge_count": 3,
+    "stair_edges": [
+     [
+      1839821067,
+      2072530017,
+      0
+     ],
+     [
+      2072530017,
+      2130070867,
+      0
+     ],
+     [
+      2130070867,
+      7747325553,
+      0
+     ]
+    ],
+    "stairs": [
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1873075,
+          -33.8773588
+         ],
+         [
+          151.1871516,
+          -33.8773457
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 1.762,
+      "step_count": 5.872,
+      "u": 1839821067,
+      "v": 2072530017,
+      "vertical_change_m": 2.08
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1871516,
+          -33.8773457
+         ],
+         [
+          151.1868376,
+          -33.8775199
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.24,
+      "step_count": 14.132,
+      "u": 2072530017,
+      "v": 2130070867,
+      "vertical_change_m": 9.45
+     },
+     {
+      "confidence_class": "P",
+      "direction": "up",
+      "elevation_source": "stair model cache (directed edge)",
+      "geometry": {
+       "coordinates": [
+        [
+         [
+          151.1868376,
+          -33.8775199
+         ],
+         [
+          151.1864837,
+          -33.877719
+         ]
+        ]
+       ],
+       "type": "MultiLineString"
+      },
+      "key": 0,
+      "name": "Palmerston Avenue Steps",
+      "stair_length_m": 4.799,
+      "step_count": 15.997,
+      "u": 2130070867,
+      "v": 7747325553,
+      "vertical_change_m": 6.96
+     }
+    ],
+    "walking_time_min": 6.505,
+    "walking_time_s": 390.272
+   }
+  },
+  "routing_basis": "standard_hybrid",
+  "selected_stop": {
+   "mode": "bus",
+   "name": "Glebe Point Rd Opp Glebe Library",
+   "stop_access": {
+    "coordinates": [
+     [
+      151.1854036,
+      -33.8777938
+     ],
+     [
+      151.18548982,
+      -33.87775714
+     ]
+    ],
+    "display_only": true,
+    "length_m": 8.95,
+    "meaning": "routing node -> GTFS stop coordinate; drawn to join the route to the marker; not part of distance, time or effort",
+    "type": "LineString"
+   },
+   "stop_id": "203723",
+   "stop_node": 7747669921
+  },
+  "stair_usage": {
+   "distance": {
+    "classes": [
+     "P"
+    ],
+    "directions": [
+     "up"
+    ],
+    "effort_models": [
+     "E2_per_vertical_m"
+    ],
+    "names": [
+     "Palmerston Avenue Steps"
+    ],
+    "stair_edge_count": 3,
+    "stair_length_m": 10.8,
+    "step_count": 36
+   },
+   "effort": {
+    "classes": [
+     "P"
+    ],
+    "directions": [
+     "up"
+    ],
+    "effort_models": [
+     "E2_per_vertical_m"
+    ],
+    "names": [
+     "Palmerston Avenue Steps"
+    ],
+    "stair_edge_count": 3,
+    "stair_length_m": 10.8,
+    "step_count": 36
+   },
+   "time": {
+    "classes": [
+     "P"
+    ],
+    "directions": [
+     "up"
+    ],
+    "effort_models": [
+     "E2_per_vertical_m"
+    ],
+    "names": [
+     "Palmerston Avenue Steps"
+    ],
+    "stair_edge_count": 3,
+    "stair_length_m": 10.8,
+    "step_count": 36
+   }
+  },
+  "status": "compared",
+  "step_free_available": true,
+  "uses_stairs": true
+ }
+}

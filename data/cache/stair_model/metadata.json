@@ -1,0 +1,111 @@
+{
+ "model_version": "stair_model_v1_phaseA",
+ "cache_format": 1,
+ "built_at_utc": "2026-10-17T13:24:45Z",
+ "inputs": {
+  "graph": {
+   "path": "data/cache/glebe_walk.graphml",
+   "sha256": "ae62e49051cbc1d5ccd842c644d858b5ed7e2ba17dd7141c5740ac2cc3bb28f3",
+   "nodes": 2435,
+   "directed_edges": 6832
+  },
+  "mapped_steps": {
+   "path": "data/cache/mapped_steps.json",
+   "sha256": "5dbf044182354237d172b8697ca9a5b476cf2aed7f21689b5094e2343b3dfcea",
+   "cache_format": 2,
+   "directed_step_edges": 324
+  },
+  "dem_tiles": {
+   "Sydney202005-LID1-AHD_3306248_56_0002_0002_1m.tif": "77a80dc3103a68bc9c8a3aab82da7c6193ae87c001a892390e3fbeea2b743dde",
+   "Sydney202005-LID1-AHD_3306250_56_0002_0002_1m.tif": "ea402b1474e202660e56ba546e75c6a759686c24f94e5c3654f6f2ede0dd3255",
+   "Sydney202005-LID1-AHD_3326248_56_0002_0002_1m.tif": "6350ef89924751db70ece700d527d3f8753c52fe77d68585fed5625d5deb770c",
+   "Sydney202005-LID1-AHD_3326250_56_0002_0002_1m.tif": "d3078ebb3b8bc3d7a606b1e9dd95b7f045e6271556377e51163693b3f95aa4c8"
+  },
+  "terrain_cost_table_not_used_for_costs": {
+   "path": "data/cache/terrain_cost/edge_terrain_cost.csv",
+   "sha256": "ec914cee87c7d59eff6c664874c1005acd1312ed6e7dd6de7a3bdecabd324d80"
+  }
+ },
+ "constants": {
+  "o2_j_per_ml": 20.9,
+  "rest_ml_kg_min": 3.5,
+  "teh_aziz": {
+   "steps": 180,
+   "rise_m": 27.0,
+   "up": {
+    "vo2": 33.5,
+    "t_s": 116.0
+   },
+   "down": {
+    "vo2": 17.0,
+    "t_s": 106.0
+   }
+  },
+  "E1_per_step_j_per_kg": {
+   "up": 6.734444444444444,
+   "down": 2.76925
+  },
+  "E2_per_vertical_m_j_per_kg": {
+   "up": 44.89629629629629,
+   "down": 18.461666666666666
+  },
+  "S2_horizontal_mps": {
+   "up": 0.63,
+   "down": 0.73
+  },
+  "S_low_mps": {
+   "up": 0.48,
+   "down": 0.58
+  },
+  "S_high_mps": {
+   "up": 0.77,
+   "down": 0.91
+  },
+  "effort_low_factor": 0.85,
+  "effort_high_factor": 1.25,
+  "tread_assumed_m": 0.3,
+  "riser_assumed_m": 0.16,
+  "riser_plausible_m": [
+   0.1,
+   0.22
+  ],
+  "flat_rise_m": 0.3,
+  "whole_stair_gradient": 0.25,
+  "minetti_domain": [
+   -0.45,
+   0.45
+  ],
+  "level_speed_mps": 1.3990950346153457
+ },
+ "provenance": {
+  "effort": "E2 per vertical metre (E1 per step fallback where riser < 0.10 m): Teh & Aziz 2002, Med Sci Sports Exerc 34:695-699 (PRIMARY), gross VO2 converted to NET by removing 1 MET, 20.9 kJ/L O2 as Minetti et al. 2002 (PRIMARY). E3 (x1.25) is sensitivity evidence only and is not the baseline.",
+  "speed": "S2 horizontal free-flow stair speed 0.63 up / 0.73 down m/s: Eindhoven Central stairway dataset, arXiv 2307.15609 (PRIMARY); low/high 0.48/0.58 and 0.77/0.91 from Fruin 1971 and Fujiyama & Tyler 2004 as quoted there. Not geometry-dependent; Wang et al. 2021 unverified and not used.",
+  "ordinary_parts": "existing Minetti (validate_walking_cost.minetti_cost) and Tobler (tobler_walking_time) over the edge's own 1 m DEM profile; no production cost-table value is reused or changed.",
+  "eligibility": "Standard walking may use mapped stair segments with sufficient model data (classes A, P, B). Poorly resolved stair segments (class C) remain excluded; no cost is invented for them."
+ },
+ "summary": {
+  "directed_stair_edges": 324,
+  "physical_segments": 163,
+  "class_counts_physical": {
+   "C": 56,
+   "B": 52,
+   "A": 39,
+   "P": 16
+  },
+  "eligible_directed_edges": 214,
+  "eligible_physical_segments": 107,
+  "eligible_stair_way_length_m": 1278.6,
+  "total_stair_way_length_m": 1813.0,
+  "effort_models": {
+   "E2_per_vertical_m": 138,
+   "ordinary_gradient_path_no_stair_model": 54,
+   "E1_per_step_count_fallback": 22
+  },
+  "partitions": {
+   "count_anchored": 110,
+   "no_count_low_gradient_ordinary_path": 54,
+   "whole_stair_way_no_count": 28,
+   "count_anchored_count_rise": 22
+  }
+ }
+}

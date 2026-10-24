@@ -1,0 +1,27 @@
+{
+  "static_gtfs": {
+    "source_url": "https://api.transport.nsw.gov.au/v1/publictransport/timetables/complete/gtfs",
+    "dataset_page_url": "https://opendata.transport.nsw.gov.au/data/dataset/timetables-complete-gtfs",
+    "download_date": "2026-10-17",
+    "http_status": 200,
+    "content_type": "application/zip",
+    "zip_filename": "timetables_complete_gtfs.zip",
+    "zip_bytes": 303384565,
+    "zip_sha256": "b5d36487404b9f3feef43595dfc20748de71ad660faa3f3e4dfbfa0e628afcde",
+    "extracted_files": {
+      "routes.txt": 1247304,
+      "stop_times.txt": 461892241,
+      "stops.txt": 17006501,
+      "trips.txt": 31657070
+    },
+    "feed_version": null,
+    "feed_start_date": null,
+    "feed_end_date": null
+  },
+  "candidate_stops_csv_sha256": "38af0ecd359f0010c5a217f7ff9d63efca3ae6b16b7bfee6c70fc27e4dd5633c",
+  "mode_policy_included": {
+    "700": "bus",
+    "900": "light_rail"
+  },
+  "built_with": "scripts/build_service_intent.py"
+}

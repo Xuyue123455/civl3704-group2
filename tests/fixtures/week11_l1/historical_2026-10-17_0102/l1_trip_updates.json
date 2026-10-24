@@ -1,0 +1,9 @@
+{
+ "captured_at": 1792159325,
+ "synthetic": false,
+ "source_url": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/lightrail/innerwest",
+ "bytes": 9046,
+ "sha256": "4a4869ad395438df30de7a6604c331aa1e65f45674d57140ba679d149fdab1d4",
+ "captured_sydney": "2026-10-17T01:02:05+11:00",
+ "note": "REAL TfNSW Inner West Light Rail v2 snapshot captured on the Windows desktop on 2026-10-17 with scripts/week11_capture_light_rail.py; bytes unmodified; a recorded fixture, NOT current or live data; no API key or secret is stored in this file or in the .pb"
+}

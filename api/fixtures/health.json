@@ -1,0 +1,27 @@
+{
+ "graph": {
+  "eligible_classes": [
+   "A",
+   "P",
+   "B"
+  ],
+  "excluded_class_edges": {
+   "C": 110
+  },
+  "stair_edges_added": 214,
+  "stair_model_version": "stair_model_v1_phaseA",
+  "standard_edges": 6508,
+  "trusted_edges": 6294
+ },
+ "recorded": {
+  "desktop_gold": "901232d39fa0f87eb479b4fcf7d0c3d74f2fb870",
+  "environment": {
+   "matplotlib": "3.11.2",
+   "python": "3.13.16"
+  },
+  "generated_at_utc": "2026-10-24T05:35:04Z",
+  "generator": "EngineHost.graph_facts",
+  "inputs": {},
+  "note": "golden fixture recorded from the validated engines; a deterministic stand-in, not live output"
+ }
+}

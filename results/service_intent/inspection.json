@@ -1,0 +1,512 @@
+{
+  "fields_present_in_trips_txt": [
+    "route_id",
+    "service_id",
+    "trip_id",
+    "trip_headsign",
+    "direction_id",
+    "route_direction"
+  ],
+  "rows_trip_stop_visits": 22358,
+  "stop_time_rows_whose_trip_is_not_in_trips_txt": 0,
+  "rows_excluded_by_mode_policy": 205,
+  "candidate_stops_with_service": 37,
+  "candidate_stops_total": 37,
+  "stops_without_any_kept_service": [],
+  "direction_id_values": {
+    "0": 11421,
+    "1": 10937
+  },
+  "trip_headsign_empty_rows": 0,
+  "route_direction_empty_rows": 0,
+  "per_route_direction": [
+    {
+      "route_short_name": "370",
+      "direction_id": "0",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "30-370-sj2-1"
+      ],
+      "n_trips": 465,
+      "n_candidate_stops": 10,
+      "headsigns": {
+        "Coogee Beach": 4650
+      },
+      "route_directions": {
+        "Glebe Point to Coogee": 4650
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "370",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "30-370-sj2-1"
+      ],
+      "n_trips": 325,
+      "n_candidate_stops": 10,
+      "headsigns": {
+        "Glebe Point": 3250
+      },
+      "route_directions": {
+        "Coogee to Glebe Point": 3250
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "412",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-412-sj2-1"
+      ],
+      "n_trips": 134,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Martin Place": 268
+      },
+      "route_directions": {
+        "Campsie to City Martin Place via Earlwood & Dulwich Hill": 268
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "413",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-413-sj2-1"
+      ],
+      "n_trips": 220,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Pitt St And Barlow St": 440
+      },
+      "route_directions": {
+        "Campsie to Central Pitt St": 440
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "422",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-422-sj2-1"
+      ],
+      "n_trips": 143,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Pitt St And Barlow St": 286
+      },
+      "route_directions": {
+        "Kogarah to Central Pitt St": 286
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "431",
+      "direction_id": "0",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-431-sj2-1"
+      ],
+      "n_trips": 143,
+      "n_candidate_stops": 10,
+      "headsigns": {
+        "Glebe Point": 1430
+      },
+      "route_directions": {
+        "City Martin Place to Glebe Point": 1430
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "431",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-431-sj2-1"
+      ],
+      "n_trips": 143,
+      "n_candidate_stops": 11,
+      "headsigns": {
+        "Martin Place": 1424
+      },
+      "route_directions": {
+        "Glebe Point to City Martin Place": 1424
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "433",
+      "direction_id": "0",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-433-sj2-1"
+      ],
+      "n_trips": 281,
+      "n_candidate_stops": 11,
+      "headsigns": {
+        "Balmain - Gladstone Park": 2227,
+        "Darling St And Thornton St": 8
+      },
+      "route_directions": {
+        "Central Pitt St to Balmain Gladstone Park": 2235
+      },
+      "headsign_unique": false,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "433",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-433-sj2-1"
+      ],
+      "n_trips": 257,
+      "n_candidate_stops": 7,
+      "headsigns": {
+        "Pitt St And Barlow St": 1799
+      },
+      "route_directions": {
+        "Balmain Gladstone Park to Central Pitt St": 1799
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "438N",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-438-N-sj2-1"
+      ],
+      "n_trips": 26,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Martin Place": 52
+      },
+      "route_directions": {
+        "Abbotsford to City Martin Place": 52
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "440",
+      "direction_id": "0",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-440-sj2-1"
+      ],
+      "n_trips": 263,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Grafton Street Bondi Jct": 526
+      },
+      "route_directions": {
+        "Rozelle to Bondi Junction": 526
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "461N",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-461-N-sj2-1"
+      ],
+      "n_trips": 32,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Hyde Park": 64
+      },
+      "route_directions": {
+        "Burwood to City Hyde Park": 64
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "469",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-469-sj2-1"
+      ],
+      "n_trips": 98,
+      "n_candidate_stops": 5,
+      "headsigns": {
+        "MarketPlace Leichhardt Via Glebe": 490
+      },
+      "route_directions": {
+        "MarketPlace Leichhardt to Glebe (Loop Service)": 490
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "470",
+      "direction_id": "0",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-470-sj2-1"
+      ],
+      "n_trips": 228,
+      "n_candidate_stops": 4,
+      "headsigns": {
+        "Lilyfield": 912
+      },
+      "route_directions": {
+        "City Martin Place to Lilyfield": 912
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "470",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-470-sj2-1"
+      ],
+      "n_trips": 237,
+      "n_candidate_stops": 4,
+      "headsigns": {
+        "Martin Place": 948
+      },
+      "route_directions": {
+        "Lilyfield to City Martin Place": 948
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "480",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-480-sj2-1"
+      ],
+      "n_trips": 29,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Pitt St And Barlow St": 58
+      },
+      "route_directions": {
+        "Strathfield to Central Pitt St via Homebush Rd": 58
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "483",
+      "direction_id": "1",
+      "mode": [
+        "bus"
+      ],
+      "route_ids": [
+        "74-483-sj2-1"
+      ],
+      "n_trips": 94,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Pitt St And Barlow St": 188
+      },
+      "route_directions": {
+        "Strathfield to Central Pitt St via South Strathfield": 188
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "L1",
+      "direction_id": "0",
+      "mode": [
+        "light_rail"
+      ],
+      "route_ids": [
+        "78-L1-sj2-1"
+      ],
+      "n_trips": 834,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Dulwich Hill": 1668
+      },
+      "route_directions": {
+        "Central to Dulwich Hill": 1668
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    },
+    {
+      "route_short_name": "L1",
+      "direction_id": "1",
+      "mode": [
+        "light_rail"
+      ],
+      "route_ids": [
+        "78-L1-sj2-1"
+      ],
+      "n_trips": 835,
+      "n_candidate_stops": 2,
+      "headsigns": {
+        "Central Station": 1670
+      },
+      "route_directions": {
+        "Dulwich Hill to Central": 1670
+      },
+      "headsign_unique": true,
+      "route_direction_unique": true
+    }
+  ],
+  "route_direction_pairs": 19,
+  "pairs_with_one_headsign": 18,
+  "pairs_with_one_route_direction": 19,
+  "pairs_with_several_route_ids": 0,
+  "headsigns_used_in_both_directions": [],
+  "stop_route_pairs_served_in_both_directions": [],
+  "same_name_stop_pairs": [
+    {
+      "stop_name": "Federal Rd Opp Bicentennial Park",
+      "stop_ids": [
+        "203717",
+        "203784"
+      ],
+      "per_stop": {
+        "203717": [
+          "370/0",
+          "431/1"
+        ],
+        "203784": [
+          "370/1",
+          "431/0"
+        ]
+      },
+      "route_direction_keys_shared_between_kerbs": [],
+      "separated_by_direction": true
+    },
+    {
+      "stop_name": "Glebe Light Rail",
+      "stop_ids": [
+        "203781",
+        "203782"
+      ],
+      "per_stop": {
+        "203781": [
+          "L1/1"
+        ],
+        "203782": [
+          "L1/0"
+        ]
+      },
+      "route_direction_keys_shared_between_kerbs": [],
+      "separated_by_direction": true
+    },
+    {
+      "stop_name": "Glebe Point Rd At Mitchell St",
+      "stop_ids": [
+        "203726",
+        "203731"
+      ],
+      "per_stop": {
+        "203726": [
+          "370/0",
+          "431/1",
+          "433/1"
+        ],
+        "203731": [
+          "370/1",
+          "431/0",
+          "433/0"
+        ]
+      },
+      "route_direction_keys_shared_between_kerbs": [],
+      "separated_by_direction": true
+    },
+    {
+      "stop_name": "Glebe Point Rd At St Johns Rd",
+      "stop_ids": [
+        "203725",
+        "203732"
+      ],
+      "per_stop": {
+        "203725": [
+          "370/0",
+          "431/1",
+          "433/1"
+        ],
+        "203732": [
+          "370/1",
+          "431/0",
+          "433/0"
+        ]
+      },
+      "route_direction_keys_shared_between_kerbs": [],
+      "separated_by_direction": true
+    },
+    {
+      "stop_name": "Jubilee Park Light Rail",
+      "stop_ids": [
+        "203779",
+        "203780"
+      ],
+      "per_stop": {
+        "203779": [
+          "L1/1"
+        ],
+        "203780": [
+          "L1/0"
+        ]
+      },
+      "route_direction_keys_shared_between_kerbs": [],
+      "separated_by_direction": true
+    }
+  ],
+  "calendar_files_missing": [],
+  "service_ids": 52,
+  "calendar_rows": 52,
+  "calendar_dates_rows": 700
+}
