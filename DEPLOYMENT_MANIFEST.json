@@ -1,13 +1,13 @@
 {
  "schema": "render-stage-manifest-1",
  "platform": "render",
- "source_commit": "89eab8462d29b12696b1d5985856f9ebc87a129f",
+ "source_commit": "be0de68907d88eaa6abbd2f7160445a437766071",
  "adapted_from": {
   "bundle": "railway staging bundle (verified: isolated validation all true, manifest hashes re-checked)",
   "source_manifest_schema": "railway-stage-manifest-1",
-  "source_build_timestamp_utc": "2026-10-24T10:19:55Z"
+  "source_build_timestamp_utc": "2026-10-25T02:54:53Z"
  },
- "build_timestamp_utc": "2026-10-24T10:55:48Z",
+ "build_timestamp_utc": "2026-10-25T02:59:44Z",
  "built_on": {
   "platform": "linux",
   "python": "3.10.12"
@@ -36,7 +36,7 @@
   ]
  },
  "file_count": 152,
- "total_bytes": 49120218,
+ "total_bytes": 49129312,
  "total_mb": 49.1,
  "largest_file_bytes": 31657070,
  "largest_file": "data/gtfs/trips.txt",
@@ -51,11 +51,11 @@
   },
   "frontend": {
    "files": 4,
-   "bytes": 1204618
+   "bytes": 1213730
   },
   "config": {
    "files": 6,
-   "bytes": 10330
+   "bytes": 10312
   }
  },
  "largest": [
@@ -84,8 +84,8 @@
    "mb": 1.25
   },
   {
-   "path": "web/dist/assets/index-BkYYi8Yx.js",
-   "mb": 1.03
+   "path": "web/dist/assets/index-DGskhnqy.js",
+   "mb": 1.04
   },
   {
    "path": "data/cache/terrain_display/elevation_tint.png",
@@ -120,8 +120,8 @@
    "mb": 0.09
   }
  ],
- "frontend_build_sha256": "0869035feb2ebe17120f5f14009bc3dad03b7c80715db2235b364a2372e00295",
- "requirements_sha256": "2e2a7d9a0b8931f54cd353bcf5d9c95540fb88681b302c3e167fe34848f25a8f",
+ "frontend_build_sha256": "6df67d7b2295df6a669094c16038b1206dc66767772155530790049dcd8ef38b",
+ "requirements_sha256": "9f6ece939e7878b89eae6afe993166a46f69285b01b17c3d80b9f4e7e5148814",
  "render_yaml_sha256": "5eaac32381b1f27df0efd82238b4deae448a2a21adb2e939dc96f67c33166ab4",
  "excluded_by_design": [
   "data/dem",
@@ -153,7 +153,7 @@
   "README.md": {
    "kind": "config",
    "bytes": 935,
-   "sha256": "b9db236268df4c3bf9d48550104816e9cf7144468734c47592908004a4efc7b6"
+   "sha256": "ae6f770571857cb18d22040634707800d887da922cb88328562315e6249d4795"
   },
   "RENDER_DEPLOYMENT.md": {
    "kind": "config",
@@ -597,8 +597,8 @@
   },
   "requirements.txt": {
    "kind": "config",
-   "bytes": 755,
-   "sha256": "2e2a7d9a0b8931f54cd353bcf5d9c95540fb88681b302c3e167fe34848f25a8f"
+   "bytes": 737,
+   "sha256": "9f6ece939e7878b89eae6afe993166a46f69285b01b17c3d80b9f4e7e5148814"
   },
   "results/service_intent/candidate_stop_services.csv": {
    "kind": "runtime asset",
@@ -880,15 +880,15 @@
    "bytes": 1286,
    "sha256": "6995e02f476ae90f36128cc830f8fe616b9780f9ab6e02136da0a25cc7e52844"
   },
-  "web/dist/assets/index-BkYYi8Yx.js": {
+  "web/dist/assets/index-D9D5RhqP.css": {
    "kind": "frontend",
-   "bytes": 1029268,
-   "sha256": "747420e1ac0957335b98116715aaabbfd0358de8f4f217ced4faa980c8c9614d"
+   "bytes": 82504,
+   "sha256": "28a2939e45c5858d5c90b671041565b74a53ee504aa3efc826f1ef37d06a4f8c"
   },
-  "web/dist/assets/index-cRW4lwsU.css": {
+  "web/dist/assets/index-DGskhnqy.js": {
    "kind": "frontend",
-   "bytes": 82287,
-   "sha256": "ed727ea0c2e48fd4cf16717103dba31b9fba66f5c22e4adf8eadc7565df1a352"
+   "bytes": 1038163,
+   "sha256": "e3283fdab43e696f151073688cc3ba8229f4be767f020daf7893dc207ea4b46f"
   },
   "web/dist/fonts/DejaVu Sans Regular/0-255.pbf": {
    "kind": "frontend",
@@ -898,7 +898,7 @@
   "web/dist/index.html": {
    "kind": "frontend",
    "bytes": 488,
-   "sha256": "1438f26a816f1a18fefb5a5db83d502ba8e45539efbeb545b7d6711c87a36087"
+   "sha256": "2a16b992f96a467d98ab8ce6841548646e08931419c2a679d205564e42018ac7"
   }
  }
 }
