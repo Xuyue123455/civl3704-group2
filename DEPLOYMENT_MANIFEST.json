@@ -1,13 +1,13 @@
 {
  "schema": "render-stage-manifest-1",
  "platform": "render",
- "source_commit": "be0de68907d88eaa6abbd2f7160445a437766071",
+ "source_commit": "ff2d057589c80f572bb7b86977c2745f52123a7f",
  "adapted_from": {
   "bundle": "railway staging bundle (verified: isolated validation all true, manifest hashes re-checked)",
   "source_manifest_schema": "railway-stage-manifest-1",
-  "source_build_timestamp_utc": "2026-10-25T02:54:53Z"
+  "source_build_timestamp_utc": "2026-10-25T04:00:15Z"
  },
- "build_timestamp_utc": "2026-10-25T02:59:44Z",
+ "build_timestamp_utc": "2026-10-25T04:03:06Z",
  "built_on": {
   "platform": "linux",
   "python": "3.10.12"
@@ -36,7 +36,7 @@
   ]
  },
  "file_count": 152,
- "total_bytes": 49129312,
+ "total_bytes": 49129139,
  "total_mb": 49.1,
  "largest_file_bytes": 31657070,
  "largest_file": "data/gtfs/trips.txt",
@@ -51,7 +51,7 @@
   },
   "frontend": {
    "files": 4,
-   "bytes": 1213730
+   "bytes": 1213557
   },
   "config": {
    "files": 6,
@@ -84,7 +84,7 @@
    "mb": 1.25
   },
   {
-   "path": "web/dist/assets/index-DGskhnqy.js",
+   "path": "web/dist/assets/index-09TrDbLN.js",
    "mb": 1.04
   },
   {
@@ -120,7 +120,7 @@
    "mb": 0.09
   }
  ],
- "frontend_build_sha256": "6df67d7b2295df6a669094c16038b1206dc66767772155530790049dcd8ef38b",
+ "frontend_build_sha256": "bc88e503577db3474ea6c49c156c30f3c466c717cfceb6be713aa68405ddcc3c",
  "requirements_sha256": "9f6ece939e7878b89eae6afe993166a46f69285b01b17c3d80b9f4e7e5148814",
  "render_yaml_sha256": "5eaac32381b1f27df0efd82238b4deae448a2a21adb2e939dc96f67c33166ab4",
  "excluded_by_design": [
@@ -153,7 +153,7 @@
   "README.md": {
    "kind": "config",
    "bytes": 935,
-   "sha256": "ae6f770571857cb18d22040634707800d887da922cb88328562315e6249d4795"
+   "sha256": "6dc2adb29abfaa42de10deed84e615a2a9fe71bca0441bdb0c5b75434e18efb6"
   },
   "RENDER_DEPLOYMENT.md": {
    "kind": "config",
@@ -880,15 +880,15 @@
    "bytes": 1286,
    "sha256": "6995e02f476ae90f36128cc830f8fe616b9780f9ab6e02136da0a25cc7e52844"
   },
-  "web/dist/assets/index-D9D5RhqP.css": {
+  "web/dist/assets/index-09TrDbLN.js": {
    "kind": "frontend",
-   "bytes": 82504,
-   "sha256": "28a2939e45c5858d5c90b671041565b74a53ee504aa3efc826f1ef37d06a4f8c"
+   "bytes": 1038094,
+   "sha256": "daefcba907e0b7ab31beac6c87899dc358f89667fbae231f1424332cc27f1cd2"
   },
-  "web/dist/assets/index-DGskhnqy.js": {
+  "web/dist/assets/index-DNTh7_AA.css": {
    "kind": "frontend",
-   "bytes": 1038163,
-   "sha256": "e3283fdab43e696f151073688cc3ba8229f4be767f020daf7893dc207ea4b46f"
+   "bytes": 82400,
+   "sha256": "59ff7945a3b4533d1e997c67b10aaebc2679d1369baba1e2167ef4f7fc6dbf3e"
   },
   "web/dist/fonts/DejaVu Sans Regular/0-255.pbf": {
    "kind": "frontend",
@@ -898,7 +898,7 @@
   "web/dist/index.html": {
    "kind": "frontend",
    "bytes": 488,
-   "sha256": "2a16b992f96a467d98ab8ce6841548646e08931419c2a679d205564e42018ac7"
+   "sha256": "88e72535159fa76f02de64765896e5a036db9fab26405631f9040214124fb961"
   }
  }
 }

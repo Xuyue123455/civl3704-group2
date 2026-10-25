@@ -1,6 +1,6 @@
 # Accessible Transit (Glebe) - Render deployment bundle
 
-Built from source commit `be0de68907d88eaa6abbd2f7160445a437766071` by `scripts/build_render_stage.py` (dev repo) out of the verified staging bundle.
+Built from source commit `ff2d057589c80f572bb7b86977c2745f52123a7f` by `scripts/build_render_stage.py` (dev repo) out of the verified staging bundle.
 This directory is a self-contained production runtime: the JSON API + the built frontend served from ONE process /
 origin. It contains no secret, no raw DEM, no raw GTFS, no node_modules, no development results.
 
